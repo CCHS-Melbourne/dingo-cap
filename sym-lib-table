@@ -1,5 +1,6 @@
 (sym_lib_table
-  (lib (name donkey-hat)(type Legacy)(uri ${KIPRJMOD}/libs/mpm3632c.lib)(options "")(descr ""))
+  (lib (name mpm3632)(type Legacy)(uri ${KIPRJMOD}/libs/mpm3632c.lib)(options "")(descr ""))
   (lib (name dingo-hat-rescue)(type Legacy)(uri ${KIPRJMOD}/dingo-hat-rescue.lib)(options "")(descr ""))
-  (lib (name graphics)(type Legacy)(uri ${KIPRJMOD}/libs/graphics.lib)(options "")(descr ""))
+  (lib (name dingo-hat)(type Legacy)(uri ${KIPRJMOD}/libs/dingo-hat.lib)(options "")(descr ""))
+  (lib (name dingo-hat-graphics)(type Legacy)(uri ${KIPRJMOD}/libs/dingo-hat-graphics.lib)(options "")(descr ""))
 )

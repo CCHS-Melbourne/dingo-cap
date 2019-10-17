@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -1620,7 +1620,7 @@ Wire Wire Line
 	4000 800  4000 850 
 Connection ~ 4000 850 
 $Comp
-L donkey-hat:MPM3632C U3
+L mpm3632:MPM3632C U3
 U 1 1 5C0E66CE
 P 4500 5450
 F 0 "U3" H 4475 6328 50  0000 C CNN
@@ -1696,11 +1696,6 @@ Wire Wire Line
 NoConn ~ 3800 5450
 NoConn ~ 3800 5550
 NoConn ~ 5150 5250
-Wire Wire Line
-	4650 4750 4550 4750
-Connection ~ 4550 4750
-Wire Wire Line
-	4550 4750 4450 4750
 $Comp
 L Device:R R14
 U 1 1 5C2CC6BC
@@ -1891,32 +1886,40 @@ Wire Wire Line
 	6100 7150 5900 7150
 Text Notes 4600 7350 0    118  ~ 24
 Add some I/O protection.
-$Comp
-L graphics:LCA2020Logo G?
-U 1 1 5DA95D6D
-P 600 7200
-F 0 "G?" H 550 7200 50  0000 L CNN
-F 1 "LCA2020Logo" H 600 7200 50  0001 C CNN
-F 2 "" H 600 7200 50  0001 C CNN
-F 3 "" H 600 7200 50  0001 C CNN
-	1    600  7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L graphics:CCHSLogo G?
-U 1 1 5DA9B14E
-P 600 7100
-F 0 "G?" H 550 7100 50  0000 L CNN
-F 1 "CCHSLogo" H 600 7100 50  0001 C CNN
-F 2 "" H 600 7100 50  0001 C CNN
-F 3 "" H 600 7100 50  0001 C CNN
-	1    600  7100
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	1150 7800 1150 6850
 Wire Notes Line
 	1150 6850 500  6850
 Text Notes 450  6950 0    50   ~ 0
 Graphics/Logos
+$Sheet
+S 1100 4500 950  1050
+U 5DA95EB0
+F0 "Power" 50
+F1 "Power.sch" 50
+$EndSheet
+Wire Wire Line
+	4450 4750 4650 4750
+$Comp
+L dingo-hat-graphics:CCHSLogo G?
+U 1 1 5DB42D44
+P 550 7050
+F 0 "G?" H 628 7050 50  0001 L CNN
+F 1 "CCHSLogo" H 628 7050 50  0000 L CNN
+F 2 "" H 550 7050 50  0001 C CNN
+F 3 "" H 550 7050 50  0001 C CNN
+	1    550  7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dingo-hat-graphics:LCA2020Logo G?
+U 1 1 5DB434D7
+P 550 7200
+F 0 "G?" H 628 7200 50  0001 L CNN
+F 1 "LCA2020Logo" H 628 7200 50  0000 L CNN
+F 2 "" H 550 7200 50  0001 C CNN
+F 3 "" H 550 7200 50  0001 C CNN
+	1    550  7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
