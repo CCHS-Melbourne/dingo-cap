@@ -14,8 +14,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 8500 1800 0    50   ~ 0
-AOZ6605PI-1\nalt. AOZ6606PI
+Text Notes 5000 2650 0    50   ~ 0
+alt. AOZ6606PI
 $Comp
 L dingo-hat:AOZ6605PI-1 U?
 U 1 1 5DA994B6
@@ -49,7 +49,7 @@ AR Path="/5DB90873" Ref="C?"  Part="1"
 AR Path="/5DA95EB0/5DB90873" Ref="C302"  Part="1" 
 F 0 "C302" H 9865 4446 50  0000 L CNN
 F 1 "10uF" H 9865 4355 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210_HandSoldering" H 9788 4250 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1210" H 9788 4250 50  0001 C CNN
 F 3 "~" H 9750 4400 50  0001 C CNN
 F 4 "1210" H 9650 4500 50  0000 L TNN "Package"
 F 5 "Digi-Key" H 9750 4400 50  0001 C CNN "Supplier 1"
@@ -79,6 +79,33 @@ F 8 "Digi-Key" H 6350 4700 50  0001 C CNN "Supplier 1"
 F 9 "1276-1000-1-ND" H 6350 4700 50  0001 C CNN "Supplier Part Number 1"
 F 10 "0.15000" H 6350 4700 50  0001 C CNN "Unit Cost A$"
 	1    6350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Small L301
+U 1 1 5DBD6690
+P 7300 3300
+F 0 "L301" V 7485 3300 50  0000 C CNN
+F 1 "L_Small" V 7394 3300 50  0000 C CNN
+F 2 "" H 7300 3300 50  0001 C CNN
+F 3 "~" H 7300 3300 50  0001 C CNN
+F 4 "FIXED IND 3.3UH 7.8A 19 MOHM SMD" H 7300 3300 50  0001 C CNN "Description"
+F 5 "https://www.digikey.com.au/product-detail/en/kemet/MPLCH0740L3R3/399-10991-1-ND/4506443" H 7300 3300 50  0001 C CNN "Link"
+F 6 "KEMET" H 7300 3300 50  0001 C CNN "Manufacturer"
+F 7 "399-10991-1-ND" H 7300 3300 50  0001 C CNN "Supplier Part Number 1"
+F 8 "1.42000" H 7300 3300 50  0001 C CNN "Unit Cost A$"
+	1    7300 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DBD8784
+P 3950 3850
+F 0 "R?" H 4018 3896 50  0000 L CNN
+F 1 "R_Small_US" H 4018 3805 50  0000 L CNN
+F 2 "" H 3950 3850 50  0001 C CNN
+F 3 "~" H 3950 3850 50  0001 C CNN
+	1    3950 3850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
