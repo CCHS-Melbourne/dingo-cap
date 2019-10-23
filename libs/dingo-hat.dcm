@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP9211
+D SINGLE CHIP SOLUTION FOR 1-CELL Li+ BATTERY PACK Protection
+K 1S Battery Li-Ion Protection
+F https://www.diodes.com/assets/Datasheets/AP9211.pdf
+$ENDCMP
+#
 #End Doc Library

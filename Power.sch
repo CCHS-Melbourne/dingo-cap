@@ -36,7 +36,7 @@ F 9 "0.96000" H 4750 3000 50  0001 C CNN "Unit Cost A$"
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1900 2150 950  1100
+S 1200 2350 950  1100
 U 5DAAD200
 F0 "BMS" 50
 F1 "BatteryManagement.sch" 50
@@ -126,40 +126,40 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5DBE1F8A
-P 3250 3200
+P 3200 4100
 AR Path="/5DBE1F8A" Ref="C?"  Part="1" 
 AR Path="/5DA95EB0/5DBE1F8A" Ref="C303"  Part="1" 
-F 0 "C303" H 3365 3246 50  0000 L CNN
-F 1 "10uF" H 3365 3155 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 3288 3050 50  0001 C CNN
-F 3 "~" H 3250 3200 50  0001 C CNN
-F 4 "1206" H 3150 3300 50  0000 L TNN "Package"
-F 5 "CAP CER 10UF 25V X5R 1206" H 3250 3200 50  0001 C CNN "Description"
-F 6 "25V" H 3250 3150 50  0000 R TNN "Voltage Rating"
-F 7 "https://www.digikey.com.au/product-detail/en/samsung-electro-mechanics/CL31A106KAHNNNE/1276-1075-1-ND/3889161" H 3250 3200 50  0001 C CNN "Link"
-F 8 "Digi-Key" H 3250 3200 50  0001 C CNN "Supplier 1"
-F 9 "1276-1075-1-ND" H 3250 3200 50  0001 C CNN "Supplier Part Number 1"
-F 10 "0.34000" H 3250 3200 50  0001 C CNN "Unit Cost A$"
-	1    3250 3200
+F 0 "C303" H 3315 4146 50  0000 L CNN
+F 1 "10uF" H 3315 4055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 3238 3950 50  0001 C CNN
+F 3 "~" H 3200 4100 50  0001 C CNN
+F 4 "1206" H 3100 4200 50  0000 L TNN "Package"
+F 5 "CAP CER 10UF 25V X5R 1206" H 3200 4100 50  0001 C CNN "Description"
+F 6 "25V" H 3200 4050 50  0000 R TNN "Voltage Rating"
+F 7 "https://www.digikey.com.au/product-detail/en/samsung-electro-mechanics/CL31A106KAHNNNE/1276-1075-1-ND/3889161" H 3200 4100 50  0001 C CNN "Link"
+F 8 "Digi-Key" H 3200 4100 50  0001 C CNN "Supplier 1"
+F 9 "1276-1075-1-ND" H 3200 4100 50  0001 C CNN "Supplier Part Number 1"
+F 10 "0.34000" H 3200 4100 50  0001 C CNN "Unit Cost A$"
+	1    3200 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP1_Small C305
 U 1 1 5DBE36A3
-P 6250 4400
-F 0 "C305" H 6341 4491 50  0000 L CNN
-F 1 "47uF" H 6341 4400 50  0000 L CNN
-F 2 "libs:CP_Elec_6.6x6.6" H 6250 4400 50  0001 C CNN
-F 3 "~" H 6250 4400 50  0001 C CNN
-F 4 "CAP ALUM 47UF 20% 25V SMD" H 6250 4400 50  0001 C CNN "Description"
-F 5 "https://www.digikey.com.au/product-detail/en/panasonic-electronic-components/EEE-HC1E470XP/PCE3753CT-ND/672807" H 6250 4400 50  0001 C CNN "Link"
-F 6 "Panasonic Electronic Components" H 6250 4400 50  0001 C CNN "Manufacturer"
-F 7 "Radial, Can - SMD 6.6x6.6" H 6250 4400 50  0001 C CNN "Package"
-F 8 "PCE3753CT-ND" H 6250 4400 50  0001 C CNN "Supplier Part Number 1"
-F 9 "0.20000" H 6250 4400 50  0001 C CNN "Unit Cost A$"
-F 10 "Digi-Key" H 6250 4400 50  0001 C CNN "Supplier 1"
-F 11 "16V" H 6250 4300 50  0000 R BNN "Voltage Rating"
-	1    6250 4400
+P 6700 4450
+F 0 "C305" H 6791 4541 50  0000 L CNN
+F 1 "47uF" H 6791 4450 50  0000 L CNN
+F 2 "libs:CP_Elec_6.6x6.6" H 6700 4450 50  0001 C CNN
+F 3 "~" H 6700 4450 50  0001 C CNN
+F 4 "CAP ALUM 47UF 20% 25V SMD" H 6700 4450 50  0001 C CNN "Description"
+F 5 "https://www.digikey.com.au/product-detail/en/panasonic-electronic-components/EEE-HC1E470XP/PCE3753CT-ND/672807" H 6700 4450 50  0001 C CNN "Link"
+F 6 "Panasonic Electronic Components" H 6700 4450 50  0001 C CNN "Manufacturer"
+F 7 "Radial, Can - SMD 6.6x6.6" H 6700 4450 50  0001 C CNN "Package"
+F 8 "PCE3753CT-ND" H 6700 4450 50  0001 C CNN "Supplier Part Number 1"
+F 9 "0.20000" H 6700 4450 50  0001 C CNN "Unit Cost A$"
+F 10 "Digi-Key" H 6700 4450 50  0001 C CNN "Supplier 1"
+F 11 "16V" H 6700 4350 50  0000 R BNN "Voltage Rating"
+	1    6700 4450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -211,7 +211,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 4250 5350 4250
 Wire Wire Line
-	5550 4250 6250 4250
+	5550 4250 6000 4250
 Wire Wire Line
 	6950 4250 6950 3100
 Wire Wire Line
@@ -222,21 +222,21 @@ Connection ~ 6950 2850
 $Comp
 L Device:C C?
 U 1 1 5DB90873
-P 6900 4650
+P 9050 3800
 AR Path="/5DB90873" Ref="C?"  Part="1" 
 AR Path="/5DA95EB0/5DB90873" Ref="C302"  Part="1" 
-F 0 "C302" H 7015 4696 50  0000 L CNN
-F 1 "10uF" H 7015 4605 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210" H 6938 4500 50  0001 C CNN
-F 3 "~" H 6900 4650 50  0001 C CNN
-F 4 "1210" H 6800 4750 50  0000 L TNN "Package"
-F 5 "Digi-Key" H 6900 4650 50  0001 C CNN "Supplier 1"
-F 6 "1276-1854-1-ND" H 6900 4650 50  0001 C CNN "Supplier Part Number 1"
-F 7 "CAP CER 10UF 25V X5R 1210" H 6900 4650 50  0001 C CNN "Description"
-F 8 "25V" H 6900 4600 50  0000 R TNN "Voltage Rating"
-F 9 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL32A106KAULNNE/1276-1854-1-ND/3889940" H 6900 4650 50  0001 C CNN "Link"
-F 10 "0.46000" H 6900 4650 50  0001 C CNN "Unit Cost A$"
-	1    6900 4650
+F 0 "C302" H 9165 3846 50  0000 L CNN
+F 1 "10uF" H 9165 3755 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 9088 3650 50  0001 C CNN
+F 3 "~" H 9050 3800 50  0001 C CNN
+F 4 "1210" H 8950 3900 50  0000 L TNN "Package"
+F 5 "Digi-Key" H 9050 3800 50  0001 C CNN "Supplier 1"
+F 6 "1276-1854-1-ND" H 9050 3800 50  0001 C CNN "Supplier Part Number 1"
+F 7 "CAP CER 10UF 25V X5R 1210" H 9050 3800 50  0001 C CNN "Description"
+F 8 "25V" H 9050 3750 50  0000 R TNN "Voltage Rating"
+F 9 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL32A106KAULNNE/1276-1854-1-ND/3889940" H 9050 3800 50  0001 C CNN "Link"
+F 10 "0.46000" H 9050 3800 50  0001 C CNN "Unit Cost A$"
+	1    9050 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -346,12 +346,9 @@ $EndComp
 Wire Wire Line
 	6250 2950 6250 3200
 Wire Wire Line
-	5050 2950 5150 2950
-Wire Wire Line
 	6250 3400 6250 3450
 Wire Wire Line
 	6250 3750 6250 3850
-Connection ~ 5150 2950
 Wire Wire Line
 	5150 2950 6250 2950
 $Comp
@@ -373,4 +370,46 @@ Wire Wire Line
 	3700 3050 3700 2850
 Wire Wire Line
 	3700 2850 4350 2850
+Text Notes 3450 1900 0    50   ~ 0
+SS 22nF=2mS soft start
+$Comp
+L Device:C C?
+U 1 1 5DC061BD
+P 5750 4450
+AR Path="/5DC061BD" Ref="C?"  Part="1" 
+AR Path="/5DA95EB0/5DC061BD" Ref="C?"  Part="1" 
+F 0 "C?" H 5865 4496 50  0000 L CNN
+F 1 "100nF" H 5865 4405 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5788 4300 50  0001 C CNN
+F 3 "~" H 5750 4450 50  0001 C CNN
+F 4 "0603" H 5650 4550 50  0000 L TNN "Package"
+F 5 "CAP CER 0.1UF 50V X7R 0603" H 5750 4450 50  0001 C CNN "Description"
+F 6 "50V" H 5750 4400 50  0000 R TNN "Voltage Rating"
+F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 5750 4450 50  0001 C CNN "Link"
+F 8 "Digi-Key" H 5750 4450 50  0001 C CNN "Supplier 1"
+F 9 "1276-1000-1-ND" H 5750 4450 50  0001 C CNN "Supplier Part Number 1"
+F 10 "0.15000" H 5750 4450 50  0001 C CNN "Unit Cost A$"
+	1    5750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DC081D7
+P 6250 4450
+AR Path="/5DC081D7" Ref="C?"  Part="1" 
+AR Path="/5DA95EB0/5DC081D7" Ref="C?"  Part="1" 
+F 0 "C?" H 6365 4496 50  0000 L CNN
+F 1 "10uF" H 6365 4405 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 6288 4300 50  0001 C CNN
+F 3 "~" H 6250 4450 50  0001 C CNN
+F 4 "1206" H 6150 4550 50  0000 L TNN "Package"
+F 5 "CAP CER 10UF 25V X5R 1206" H 6250 4450 50  0001 C CNN "Description"
+F 6 "25V" H 6250 4400 50  0000 R TNN "Voltage Rating"
+F 7 "https://www.digikey.com.au/product-detail/en/samsung-electro-mechanics/CL31A106KAHNNNE/1276-1075-1-ND/3889161" H 6250 4450 50  0001 C CNN "Link"
+F 8 "Digi-Key" H 6250 4450 50  0001 C CNN "Supplier 1"
+F 9 "1276-1075-1-ND" H 6250 4450 50  0001 C CNN "Supplier Part Number 1"
+F 10 "0.34000" H 6250 4450 50  0001 C CNN "Unit Cost A$"
+	1    6250 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
