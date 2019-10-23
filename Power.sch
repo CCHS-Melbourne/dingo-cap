@@ -35,12 +35,6 @@ F 9 "0.96000" H 4750 3000 50  0001 C CNN "Unit Cost A$"
 	1    4750 3000
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 1200 2350 950  1100
-U 5DAAD200
-F0 "BMS" 50
-F1 "BatteryManagement.sch" 50
-$EndSheet
 $Comp
 L Device:L_Small L301
 U 1 1 5DBD6690
@@ -211,34 +205,12 @@ Wire Wire Line
 Wire Wire Line
 	4750 4250 5350 4250
 Wire Wire Line
-	5550 4250 6000 4250
-Wire Wire Line
 	6950 4250 6950 3100
 Wire Wire Line
 	6950 2850 6950 2800
 Wire Wire Line
 	6950 2900 6950 2850
 Connection ~ 6950 2850
-$Comp
-L Device:C C?
-U 1 1 5DB90873
-P 9050 3800
-AR Path="/5DB90873" Ref="C?"  Part="1" 
-AR Path="/5DA95EB0/5DB90873" Ref="C302"  Part="1" 
-F 0 "C302" H 9165 3846 50  0000 L CNN
-F 1 "10uF" H 9165 3755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210" H 9088 3650 50  0001 C CNN
-F 3 "~" H 9050 3800 50  0001 C CNN
-F 4 "1210" H 8950 3900 50  0000 L TNN "Package"
-F 5 "Digi-Key" H 9050 3800 50  0001 C CNN "Supplier 1"
-F 6 "1276-1854-1-ND" H 9050 3800 50  0001 C CNN "Supplier Part Number 1"
-F 7 "CAP CER 10UF 25V X5R 1210" H 9050 3800 50  0001 C CNN "Description"
-F 8 "25V" H 9050 3750 50  0000 R TNN "Voltage Rating"
-F 9 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL32A106KAULNNE/1276-1854-1-ND/3889940" H 9050 3800 50  0001 C CNN "Link"
-F 10 "0.46000" H 9050 3800 50  0001 C CNN "Unit Cost A$"
-	1    9050 3800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 5DBF81CD
@@ -412,4 +384,84 @@ F 10 "0.34000" H 6250 4450 50  0001 C CNN "Unit Cost A$"
 	1    6250 4450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5550 4250 5750 4250
+Wire Wire Line
+	5750 4300 5750 4250
+Connection ~ 5750 4250
+Wire Wire Line
+	5750 4250 6250 4250
+Wire Wire Line
+	6250 4300 6250 4250
+Connection ~ 6250 4250
+Wire Wire Line
+	6250 4250 6700 4250
+Wire Wire Line
+	6700 4350 6700 4250
+Connection ~ 6700 4250
+Wire Wire Line
+	6700 4250 6950 4250
+$Comp
+L power:GND #PWR?
+U 1 1 5DC1A903
+P 5750 4700
+AR Path="/5DC1A903" Ref="#PWR?"  Part="1" 
+AR Path="/5DA95EB0/5DC1A903" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5750 4450 50  0001 C CNN
+F 1 "GND" H 5755 4527 50  0000 C CNN
+F 2 "" H 5750 4700 50  0001 C CNN
+F 3 "" H 5750 4700 50  0001 C CNN
+	1    5750 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC1AE90
+P 6250 4700
+AR Path="/5DC1AE90" Ref="#PWR?"  Part="1" 
+AR Path="/5DA95EB0/5DC1AE90" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6250 4450 50  0001 C CNN
+F 1 "GND" H 6255 4527 50  0000 C CNN
+F 2 "" H 6250 4700 50  0001 C CNN
+F 3 "" H 6250 4700 50  0001 C CNN
+	1    6250 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC1B2B7
+P 6700 4700
+AR Path="/5DC1B2B7" Ref="#PWR?"  Part="1" 
+AR Path="/5DA95EB0/5DC1B2B7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6700 4450 50  0001 C CNN
+F 1 "GND" H 6705 4527 50  0000 C CNN
+F 2 "" H 6700 4700 50  0001 C CNN
+F 3 "" H 6700 4700 50  0001 C CNN
+	1    6700 4700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4550 6700 4700
+Wire Wire Line
+	6250 4600 6250 4700
+Wire Wire Line
+	5750 4600 5750 4700
+$Comp
+L power:+5V #PWR?
+U 1 1 5DC208D7
+P 7300 4050
+AR Path="/5DC208D7" Ref="#PWR?"  Part="1" 
+AR Path="/5DA95EB0/5DC208D7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7300 3900 50  0001 C CNN
+F 1 "+5V" H 7315 4223 50  0000 C CNN
+F 2 "" H 7300 4050 50  0001 C CNN
+F 3 "" H 7300 4050 50  0001 C CNN
+	1    7300 4050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4250 6950 4250
+Wire Wire Line
+	7300 4050 7300 4250
+Connection ~ 6950 4250
 $EndSCHEMATC

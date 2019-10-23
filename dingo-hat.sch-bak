@@ -890,12 +890,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5C20A2ED
-P 2800 5150
-F 0 "J1" H 2879 5142 50  0000 L CNN
-F 1 "6-18V" H 2879 5051 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" H 2800 5150 50  0001 C CNN
-F 3 "~" H 2800 5150 50  0001 C CNN
-	1    2800 5150
+P 850 4250
+F 0 "J1" H 929 4242 50  0000 L CNN
+F 1 "6-18V" H 929 4151 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" H 850 4250 50  0001 C CNN
+F 3 "~" H 850 4250 50  0001 C CNN
+	1    850  4250
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1970,4 +1970,25 @@ F 4 "0603" H 1350 250 50  0000 C CNN "Package"
 	1    10250 1550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Transistor_FET:IRLML6402 Q?
+U 1 1 5DC2606F
+P 6200 4300
+F 0 "Q?" V 6543 4300 50  0000 C CNN
+F 1 "IRLML6401" V 6452 4300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6400 4225 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6200 4300 50  0001 L CNN
+F 4 "https://www.digikey.com.au/product-detail/en/infineon-technologies/IRLML6401TRPBF/IRLML6401PBFCT-ND/812509" V 6200 4300 50  0001 C CNN "Link"
+F 5 "SOT-23" H -450 -1150 50  0001 C CNN "Package"
+F 6 "International Rectifier" H -450 -1150 50  0001 C CNN "Manufacturer"
+F 7 "IRLML6402PbF" H -450 -1150 50  0001 C CNN "Mfg Part #"
+	1    6200 4300
+	0    -1   -1   0   
+$EndComp
+$Sheet
+S 4650 3600 950  1100
+U 5DC297AB
+F0 "Battery" 50
+F1 "BatteryManagement.sch" 50
+$EndSheet
 $EndSCHEMATC
