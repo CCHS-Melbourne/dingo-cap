@@ -464,4 +464,24 @@ Wire Wire Line
 Wire Wire Line
 	7300 4050 7300 4250
 Connection ~ 6950 4250
+$Comp
+L Device:C C?
+U 1 1 5DEA1AB8
+P 4500 4650
+AR Path="/5DEA1AB8" Ref="C?"  Part="1" 
+AR Path="/5DA95EB0/5DEA1AB8" Ref="C408"  Part="1" 
+F 0 "C408" H 4615 4696 50  0000 L CNN
+F 1 "1uF" H 4615 4605 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4538 4500 50  0001 C CNN
+F 3 "~" H 4500 4650 50  0001 C CNN
+F 4 "0603" H 4400 4750 50  0000 L TNN "Package"
+F 5 "CAP CER 1UF 25V X5R 0603" H 4500 4650 50  0001 C CNN "Description"
+F 6 "25V" H 4500 4600 50  0000 R TNN "Voltage Rating"
+F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 4500 4650 50  0001 C CNN "Link"
+F 8 "Digi-Key" H 4500 4650 50  0001 C CNN "Supplier 1"
+F 9 "311-1445-1-ND" H 4500 4650 50  0001 C CNN "Supplier Part Number 1"
+F 10 "0.15000" H 4500 4650 50  0001 C CNN "Unit Cost A$"
+	1    4500 4650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

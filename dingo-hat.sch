@@ -892,7 +892,7 @@ L Connector_Generic:Conn_01x02 J1
 U 1 1 5C20A2ED
 P 850 4250
 F 0 "J1" H 929 4242 50  0000 L CNN
-F 1 "6-18V" H 929 4151 50  0000 L CNN
+F 1 "6-13V" H 929 4151 50  0000 L CNN
 F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" H 850 4250 50  0001 C CNN
 F 3 "~" H 850 4250 50  0001 C CNN
 	1    850  4250

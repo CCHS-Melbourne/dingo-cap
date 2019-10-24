@@ -6,4 +6,9 @@ K 1S Battery Li-Ion Protection
 F https://www.diodes.com/assets/Datasheets/AP9211.pdf
 $ENDCMP
 #
+$CMP MCP73213T-A6BI_MF
+D EP goes to VSS.
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002190D.pdf
+$ENDCMP
+#
 #End Doc Library
