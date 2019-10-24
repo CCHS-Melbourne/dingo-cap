@@ -1565,12 +1565,6 @@ Wire Notes Line
 	1150 6850 500  6850
 Text Notes 450  6950 0    50   ~ 0
 Graphics/Logos
-$Sheet
-S 4600 4500 950  1050
-U 5DA95EB0
-F0 "Power" 50
-F1 "Power.sch" 50
-$EndSheet
 $Comp
 L dingo-hat-graphics:CCHSLogo G1
 U 1 1 5DB42D44
@@ -1612,10 +1606,10 @@ F 10 "0.15000" H 9350 1300 50  0001 C CNN "Unit Cost A$"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C402
 U 1 1 5DB569B9
 P 10100 1250
-F 0 "C?" H 10215 1296 50  0000 L CNN
+F 0 "C402" H 10215 1296 50  0000 L CNN
 F 1 "100nF" H 10215 1205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10138 1100 50  0001 C CNN
 F 3 "~" H 10100 1250 50  0001 C CNN
@@ -1630,10 +1624,10 @@ F 10 "0.15000" H 10100 1250 50  0001 C CNN "Unit Cost A$"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C403
 U 1 1 5DB8EAA0
 P 10250 1550
-F 0 "C?" H 10365 1596 50  0000 L CNN
+F 0 "C403" H 10365 1596 50  0000 L CNN
 F 1 "10uF" H 10365 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10288 1400 50  0001 C CNN
 F 3 "~" H 10250 1550 50  0001 C CNN
@@ -1642,24 +1636,73 @@ F 4 "0603" H 1350 250 50  0000 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLML6402 Q?
+L Transistor_FET:IRLML6402 Q401
 U 1 1 5DC2606F
-P 6200 4300
-F 0 "Q?" V 6543 4300 50  0000 C CNN
-F 1 "IRLML6401" V 6452 4300 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6400 4225 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6200 4300 50  0001 L CNN
-F 4 "https://www.digikey.com.au/product-detail/en/infineon-technologies/IRLML6401TRPBF/IRLML6401PBFCT-ND/812509" V 6200 4300 50  0001 C CNN "Link"
-F 5 "SOT-23" H -450 -1150 50  0001 C CNN "Package"
-F 6 "International Rectifier" H -450 -1150 50  0001 C CNN "Manufacturer"
-F 7 "IRLML6402PbF" H -450 -1150 50  0001 C CNN "Mfg Part #"
-	1    6200 4300
+P -400 4050
+F 0 "Q401" V -57 4050 50  0000 C CNN
+F 1 "IRLML6401" V -148 4050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H -200 3975 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H -400 4050 50  0001 L CNN
+F 4 "https://www.digikey.com.au/product-detail/en/infineon-technologies/IRLML6401TRPBF/IRLML6401PBFCT-ND/812509" V -400 4050 50  0001 C CNN "Link"
+F 5 "SOT-23" H -7050 -1400 50  0001 C CNN "Package"
+F 6 "International Rectifier" H -7050 -1400 50  0001 C CNN "Manufacturer"
+F 7 "IRLML6402PbF" H -7050 -1400 50  0001 C CNN "Mfg Part #"
+	1    -400 4050
 	0    -1   -1   0   
 $EndComp
 $Sheet
-S 3400 4450 950  1100
-U 5DC297AB
-F0 "Battery" 50
-F1 "BatteryManagement.sch" 50
+S 5950 5100 950  1050
+U 5DA95EB0
+F0 "Power" 50
+F1 "Power.sch" 50
 $EndSheet
+Wire Notes Line
+	7300 6500 7300 4900
+Text Label 3900 5300 2    50   ~ 0
+NiMHPwr
+Text Label 3900 5500 2    50   ~ 0
+LiPoPwr
+$Comp
+L Connector_Generic:Conn_01x03 J5
+U 1 1 5C1E72E1
+P 3350 5400
+F 0 "J5" H 3270 5075 50  0000 C CNN
+F 1 "LiPo/NiMH" H 3270 5166 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3350 5400 50  0001 C CNN
+F 3 "~" H 3350 5400 50  0001 C CNN
+	1    3350 5400
+	-1   0    0    1   
+$EndComp
+Text Label 4100 5400 2    50   ~ 0
+BatterySupply
+$Sheet
+S 1750 4500 950  1100
+U 5DC297AB
+F0 "LiPoBatteryMgmt" 50
+F1 "BatteryManagement.sch" 50
+F2 "Batt+" U L 1750 4750 50 
+F3 "Pack-" U R 2700 5200 50 
+F4 "Batt-" U L 1750 5200 50 
+$EndSheet
+Wire Wire Line
+	3550 5300 3900 5300
+Wire Wire Line
+	3550 5500 3900 5500
+Wire Wire Line
+	3550 5400 4100 5400
+$Comp
+L power:GND #PWR0401
+U 1 1 5DE52CD2
+P 2950 5350
+F 0 "#PWR0401" H 2950 5100 50  0001 C CNN
+F 1 "GND" H 2955 5177 50  0000 C CNN
+F 2 "" H 2950 5350 50  0001 C CNN
+F 3 "" H 2950 5350 50  0001 C CNN
+	1    2950 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5350 2950 5200
+Wire Wire Line
+	2700 5200 2950 5200
 $EndSCHEMATC
