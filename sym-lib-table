@@ -4,4 +4,5 @@
   (lib (name dingo-hat)(type Legacy)(uri ${KIPRJMOD}/libs/dingo-hat.lib)(options "")(descr ""))
   (lib (name dingo-hat-graphics)(type Legacy)(uri ${KIPRJMOD}/libs/dingo-hat-graphics.lib)(options "")(descr ""))
   (lib (name mcp73213)(type Legacy)(uri ${KIPRJMOD}/libs/mcp73213.lib)(options "")(descr ""))
+  (lib (name bq29209)(type Legacy)(uri ${KIPRJMOD}/libs/bq29209.lib)(options "")(descr ""))
 )
