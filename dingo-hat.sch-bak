@@ -1699,7 +1699,7 @@ AR Path="/5DC297AB/5DF4F0A2" Ref="U?"  Part="1"
 AR Path="/5DF4F0A2" Ref="U?"  Part="1" 
 F 0 "U?" H 2550 6850 50  0000 C CNN
 F 1 "MCP3021" H 2700 6350 50  0000 C CNN
-F 2 "" H 2700 6600 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 2700 6600 50  0001 C CNN
 F 3 "" H 2700 6600 50  0001 C CNN
 	1    2700 6600
 	1    0    0    -1  
@@ -1857,4 +1857,6 @@ Wire Wire Line
 	3100 6450 3150 6450
 Text Notes 2450 6250 0    50   ~ 0
 ADC
+Text Notes 3600 6150 0    50   ~ 0
+i2c Addresses:\nPCA9685PW --\nMPU-9250 --\nMPC3021 --\nDisplay --
 $EndSCHEMATC

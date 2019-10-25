@@ -180,18 +180,6 @@ Wire Wire Line
 	9100 3450 8850 3450
 Text Label 8850 3450 0    50   ~ 0
 A2
-Wire Wire Line
-	9100 3550 8850 3550
-Text Label 8850 3550 0    50   ~ 0
-A3
-Wire Wire Line
-	9100 3650 8850 3650
-Text Label 8850 3650 0    50   ~ 0
-A4
-Wire Wire Line
-	9100 3750 8850 3750
-Text Label 8850 3750 0    50   ~ 0
-A5
 $Comp
 L Device:R R7
 U 1 1 5BFFE4F2
@@ -248,17 +236,6 @@ F 3 "" H 9100 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
-U 1 1 5C001B2D
-P 10600 6050
-F 0 "#PWR0107" H 10600 5800 50  0001 C CNN
-F 1 "GND" H 10605 5877 50  0000 C CNN
-F 2 "" H 10600 6050 50  0001 C CNN
-F 3 "" H 10600 6050 50  0001 C CNN
-	1    10600 6050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP2
 U 1 1 5C001CDA
 P 9650 5000
@@ -289,39 +266,6 @@ F 1 "A2" H 9750 5250 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9650 5200 50  0001 C CNN
 F 3 "~" H 9650 5200 50  0001 C CNN
 	1    9650 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP5
-U 1 1 5C00261D
-P 9650 5650
-F 0 "JP5" H 9550 5700 50  0000 C CNN
-F 1 "A5" H 9750 5700 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9650 5650 50  0001 C CNN
-F 3 "~" H 9650 5650 50  0001 C CNN
-	1    9650 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP6
-U 1 1 5C002EE1
-P 9350 5750
-F 0 "JP6" H 9450 5800 50  0000 C CNN
-F 1 "A4" H 9250 5800 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9350 5750 50  0001 C CNN
-F 3 "~" H 9350 5750 50  0001 C CNN
-	1    9350 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP7
-U 1 1 5C002EE7
-P 9650 5850
-F 0 "JP7" H 9550 5900 50  0000 C CNN
-F 1 "A3" H 9750 5900 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9650 5850 50  0001 C CNN
-F 3 "~" H 9650 5850 50  0001 C CNN
-	1    9650 5850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -995,9 +939,9 @@ Wire Wire Line
 Wire Wire Line
 	6000 7250 6000 7350
 Wire Notes Line
-	4300 7800 4300 6550
-Text Notes 6350 6700 0    50   ~ 0
-NeoPixel LEDS
+	4800 7800 4800 6550
+Text Notes 5800 6600 0    50   ~ 0
+NeoPixel LEDS/General I/O
 Wire Notes Line
 	8300 2400 4250 2400
 Wire Notes Line
@@ -1061,18 +1005,6 @@ F 3 "~" H 750 6700 50  0001 C CNN
 $EndComp
 NoConn ~ 550  6700
 $Comp
-L Device:R_Pack04 RN6
-U 1 1 5C46C610
-P 10300 5750
-F 0 "RN6" V 9883 5750 50  0000 C CNN
-F 1 "10K_Pack04" V 9974 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 10575 5750 50  0001 C CNN
-F 3 "~" H 10300 5750 50  0001 C CNN
-F 4 "SMD" H 0   0   50  0001 C CNN "Package"
-	1    10300 5750
-	0    1    -1   0   
-$EndComp
-$Comp
 L Device:R_Pack04 RN5
 U 1 1 5C4B78BC
 P 10300 5100
@@ -1087,18 +1019,6 @@ $EndComp
 Wire Wire Line
 	9100 4850 9100 5000
 Wire Wire Line
-	9100 5850 9500 5850
-Wire Wire Line
-	9200 5750 9100 5750
-Connection ~ 9100 5750
-Wire Wire Line
-	9100 5750 9100 5850
-Wire Wire Line
-	9500 5650 9100 5650
-Connection ~ 9100 5650
-Wire Wire Line
-	9100 5650 9100 5750
-Wire Wire Line
 	9100 5000 9500 5000
 Connection ~ 9100 5000
 Wire Wire Line
@@ -1110,44 +1030,12 @@ Wire Wire Line
 	9100 5100 9100 5200
 Wire Wire Line
 	9500 5200 9100 5200
-Connection ~ 9100 5200
-Wire Wire Line
-	9100 5200 9100 5650
-Wire Wire Line
-	9800 5650 10100 5650
-Wire Wire Line
-	9500 5750 10100 5750
-Wire Wire Line
-	9800 5850 10100 5850
 Wire Wire Line
 	10500 5000 10600 5000
 Wire Wire Line
 	10600 5000 10600 5100
 Wire Wire Line
-	10500 5950 10600 5950
-Connection ~ 10600 5950
-Wire Wire Line
-	10600 5950 10600 6050
-Wire Wire Line
-	10600 5850 10500 5850
-Connection ~ 10600 5850
-Wire Wire Line
-	10600 5850 10600 5950
-Wire Wire Line
-	10500 5750 10600 5750
-Connection ~ 10600 5750
-Wire Wire Line
-	10600 5750 10600 5850
-Wire Wire Line
-	10500 5650 10600 5650
-Connection ~ 10600 5650
-Wire Wire Line
-	10600 5650 10600 5750
-Wire Wire Line
 	10500 5300 10600 5300
-Connection ~ 10600 5300
-Wire Wire Line
-	10600 5300 10600 5650
 Wire Wire Line
 	10500 5200 10600 5200
 Connection ~ 10600 5200
@@ -1165,19 +1053,12 @@ Wire Wire Line
 Wire Wire Line
 	9800 5200 10100 5200
 NoConn ~ 10100 5300
-NoConn ~ 10100 5950
 Text Label 9900 5000 0    50   ~ 0
 A0
 Text Label 9900 5100 0    50   ~ 0
 A1
 Text Label 9900 5200 0    50   ~ 0
 A2
-Text Label 9900 5850 0    50   ~ 0
-A3
-Text Label 9900 5750 0    50   ~ 0
-A4
-Text Label 9900 5650 0    50   ~ 0
-A5
 $Comp
 L Device:C C9
 U 1 1 5CC83074
@@ -1857,4 +1738,43 @@ Wire Wire Line
 	3100 6450 3150 6450
 Text Notes 2450 6250 0    50   ~ 0
 ADC
+Text Notes 3600 6150 0    50   ~ 0
+i2c Addresses:\nPCA9685PW --\nMPU-9250 --\nMPC3021 --\nDisplay --
+$Comp
+L power:GND #PWR?
+U 1 1 5E262FFC
+P 10600 5300
+F 0 "#PWR?" H 10600 5050 50  0001 C CNN
+F 1 "GND" H 10605 5127 50  0000 C CNN
+F 2 "" H 10600 5300 50  0001 C CNN
+F 3 "" H 10600 5300 50  0001 C CNN
+	1    10600 5300
+	1    0    0    -1  
+$EndComp
+Connection ~ 10600 5300
+$Comp
+L power:GND #PWR?
+U 1 1 5E2ACCA1
+P 8800 3850
+F 0 "#PWR?" H 8800 3600 50  0001 C CNN
+F 1 "GND" H 8805 3677 50  0000 C CNN
+F 2 "" H 8800 3850 50  0001 C CNN
+F 3 "" H 8800 3850 50  0001 C CNN
+	1    8800 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3750 8800 3850
+Wire Wire Line
+	8800 3750 9100 3750
+Wire Wire Line
+	8800 3750 8800 3650
+Wire Wire Line
+	8800 3550 9100 3550
+Connection ~ 8800 3750
+Wire Wire Line
+	8800 3650 9100 3650
+Connection ~ 8800 3650
+Wire Wire Line
+	8800 3650 8800 3550
 $EndSCHEMATC

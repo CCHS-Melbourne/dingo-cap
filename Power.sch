@@ -484,4 +484,9 @@ F 10 "0.15000" H 4500 4650 50  0001 C CNN "Unit Cost A$"
 	1    4500 4650
 	1    0    0    -1  
 $EndComp
+Text HLabel 4000 2950 0    50   UnSpc ~ 0
+Batt+
+Wire Wire Line
+	4000 2950 4150 2950
+Connection ~ 4150 2950
 $EndSCHEMATC
