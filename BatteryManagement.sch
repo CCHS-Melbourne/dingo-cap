@@ -22,7 +22,7 @@ AR Path="/5DA95EB0/5DAAD200/5DC173E3" Ref="U?"  Part="1"
 AR Path="/5DC297AB/5DC173E3" Ref="U401"  Part="1" 
 F 0 "U401" H 2750 5525 50  0000 C CNN
 F 1 "AP9211" H 2750 5434 50  0000 C CNN
-F 2 "" H 2750 4950 50  0001 C CNN
+F 2 "libs:6-UDFN-Exposed-Pad" H 2750 4950 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP9211.pdf" H 2750 4950 50  0001 C CNN
 	1    2750 5100
 	1    0    0    -1  
