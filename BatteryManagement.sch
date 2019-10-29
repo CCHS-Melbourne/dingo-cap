@@ -647,4 +647,6 @@ Text Label 6700 4950 0    50   ~ 0
 VC0
 Text Label 3650 4950 0    50   ~ 0
 VC1
+Text Notes 250  5050 0    118  ~ 24
+Does this protection really do what I want when there's a separate balance and power plug?
 $EndSCHEMATC
