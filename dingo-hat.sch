@@ -1370,6 +1370,7 @@ S 4900 4450 950  1050
 U 5DA95EB0
 F0 "Power" 50
 F1 "Power.sch" 50
+F2 "Supply" I L 4900 4750 50 
 $EndSheet
 Wire Notes Line
 	7300 6500 7300 4900
@@ -1487,8 +1488,6 @@ Wire Wire Line
 Connection ~ 1950 6900
 Wire Wire Line
 	1950 6900 1950 6950
-Text Label 1950 6500 2    50   ~ 0
-Batt+
 Wire Wire Line
 	1950 6500 1950 6550
 $Comp
@@ -1686,8 +1685,12 @@ F 3 "~" H 700 5500 50  0001 C CNN
 	1    700  5500
 	-1   0    0    1   
 $EndComp
-Text Label 4600 4700 2    50   ~ 0
+Text Label 1950 6500 2    50   ~ 0
 BatterySupply
 Text Notes 300  4850 0    50   ~ 0
 Need BarrelJack footprint/model.
+Text Label 4750 4750 2    50   ~ 0
+BatterySupply
+Wire Wire Line
+	4900 4750 4750 4750
 $EndSCHEMATC
