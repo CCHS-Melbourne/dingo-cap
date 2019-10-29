@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:dingo-hat-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -484,9 +484,11 @@ F 10 "0.15000" H 4500 4650 50  0001 C CNN "Unit Cost A$"
 	1    4500 4650
 	1    0    0    -1  
 $EndComp
-Text HLabel 4000 2950 0    50   UnSpc ~ 0
-Batt+
 Wire Wire Line
 	4000 2950 4150 2950
 Connection ~ 4150 2950
+Text Notes 2250 2650 0    50   ~ 0
+More bulk capacitance on input needed. 22uF or more.
+Text Notes 2000 2550 0    50   ~ 0
+TODO: figure out battery selection method, wire to DCDC VIN.
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:dingo-hat-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -160,7 +160,7 @@ F 0 "C7" H 9015 1346 50  0000 L CNN
 F 1 "10uF" H 9015 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8938 1150 50  0001 C CNN
 F 3 "~" H 8900 1300 50  0001 C CNN
-F 4 "0603" H 0   0   50  0000 C CNN "Package"
+F 4 "0603" H 8900 1350 50  0000 C BNN "Package"
 	1    8900 1300
 	1    0    0    -1  
 $EndComp
@@ -672,12 +672,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5C20A2ED
-P 850 4250
-F 0 "J1" H 929 4242 50  0000 L CNN
-F 1 "6-13V" H 929 4151 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" H 850 4250 50  0001 C CNN
-F 3 "~" H 850 4250 50  0001 C CNN
-	1    850  4250
+P 700 4850
+F 0 "J1" H 779 4842 50  0000 L CNN
+F 1 "9-13V LiPo Charge" H 779 4751 50  0000 L CNN
+F 2 "" H 700 4850 50  0001 C CNN
+F 3 "~" H 700 4850 50  0001 C CNN
+	1    700  4850
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1373,22 +1373,22 @@ F1 "Power.sch" 50
 $EndSheet
 Wire Notes Line
 	7300 6500 7300 4900
-Text Label 1150 4750 2    50   ~ 0
+Text Label 4100 5000 2    50   ~ 0
 NiMHPwr
-Text Label 1150 4950 2    50   ~ 0
+Text Label 4100 5200 2    50   ~ 0
 LiPoPwr
 $Comp
 L Connector_Generic:Conn_01x03 J5
 U 1 1 5C1E72E1
-P 600 4850
-F 0 "J5" H 520 4525 50  0000 C CNN
-F 1 "LiPo/NiMH" H 520 4616 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 600 4850 50  0001 C CNN
-F 3 "~" H 600 4850 50  0001 C CNN
-	1    600  4850
+P 3550 5100
+F 0 "J5" H 3470 4775 50  0000 C CNN
+F 1 "LiPo/NiMH Switch" H 3470 4866 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3550 5100 50  0001 C CNN
+F 3 "~" H 3550 5100 50  0001 C CNN
+	1    3550 5100
 	-1   0    0    1   
 $EndComp
-Text Label 1350 4850 2    50   ~ 0
+Text Label 4300 5100 2    50   ~ 0
 BatterySupply
 $Sheet
 S 1750 4500 950  1100
@@ -1400,11 +1400,11 @@ F3 "Pack-" U R 2700 5200 50
 F4 "Batt-" U L 1750 5200 50 
 $EndSheet
 Wire Wire Line
-	800  4750 1150 4750
+	3750 5000 4100 5000
 Wire Wire Line
-	800  4950 1150 4950
+	3750 5200 4100 5200
 Wire Wire Line
-	800  4850 1350 4850
+	3750 5100 4300 5100
 $Comp
 L power:GND #PWR0401
 U 1 1 5DE52CD2
@@ -1675,4 +1675,19 @@ Wire Wire Line
 	6750 2850 6400 2850
 Wire Wire Line
 	6750 2750 6400 2750
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5DBAD292
+P 700 5500
+F 0 "J?" H 620 5175 50  0000 C CNN
+F 1 "LiPoBalance-JST-XH" H 500 5250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 700 5500 50  0001 C CNN
+F 3 "~" H 700 5500 50  0001 C CNN
+	1    700  5500
+	-1   0    0    1   
+$EndComp
+Text Label 4600 4700 2    50   ~ 0
+BatterySupply
+Text Notes 300  4850 0    50   ~ 0
+Need BarrelJack footprint/model.
 $EndSCHEMATC
