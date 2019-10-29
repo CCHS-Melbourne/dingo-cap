@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -140,8 +140,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 5650 2800 5750
 Connection ~ 2850 5650
-Text Label 3650 4950 0    50   ~ 0
-Batt-S1
 $Comp
 L dingo-hat:MCP73213T-A6BI_MF U202
 U 1 1 5DE8020F
@@ -494,7 +492,7 @@ F 4 "0603" H 5400 -2150 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 Text Label 6700 3700 0    50   ~ 0
-Batt+
+VC2
 $Comp
 L Device:C C?
 U 1 1 5DED63F8
@@ -519,9 +517,9 @@ $EndComp
 Text Label 2000 5650 0    50   ~ 0
 Batt-
 Text Label 6700 5850 0    50   ~ 0
-Batt-
+VC0
 Text Label 6100 4850 0    50   ~ 0
-Batt-S1
+VC1
 $Comp
 L dingo-hat:BQ29209DRBR U203
 U 1 1 5DEDCDDA
@@ -533,8 +531,6 @@ F 3 "" H 6850 5100 60  0000 C CNN
 	1    7650 4700
 	1    0    0    -1  
 $EndComp
-Text Label 6700 4950 0    50   ~ 0
-Batt-
 Wire Wire Line
 	6700 4900 6700 4950
 Wire Wire Line
@@ -624,4 +620,31 @@ Wire Notes Line
 	9650 4200 9650 2350
 Wire Notes Line
 	9650 2350 5750 2350
+Text Label 1900 6100 0    50   ~ 0
+VC0
+$Comp
+L Device:C C?
+U 1 1 5DC6B2DE
+P 1900 5900
+AR Path="/5DC6B2DE" Ref="C?"  Part="1" 
+AR Path="/5DA95EB0/5DC6B2DE" Ref="C?"  Part="1" 
+AR Path="/5DC297AB/5DC6B2DE" Ref="C?"  Part="1" 
+F 0 "C?" H 2015 5946 50  0000 L CNN
+F 1 "1uF" H 2015 5855 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1938 5750 50  0001 C CNN
+F 3 "~" H 1900 5900 50  0001 C CNN
+F 4 "0603" H 1800 6000 50  0000 L TNN "Package"
+F 5 "CAP CER 1UF 25V X5R 0603" H 1900 5900 50  0001 C CNN "Description"
+F 6 "25V" H 1900 5850 50  0000 R TNN "Voltage Rating"
+F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 1900 5900 50  0001 C CNN "Link"
+F 8 "Digi-Key" H 1900 5900 50  0001 C CNN "Supplier 1"
+F 9 "311-1445-1-ND" H 1900 5900 50  0001 C CNN "Supplier Part Number 1"
+F 10 "0.15000" H 1900 5900 50  0001 C CNN "Unit Cost A$"
+	1    1900 5900
+	1    0    0    -1  
+$EndComp
+Text Label 6700 4950 0    50   ~ 0
+VC0
+Text Label 3650 4950 0    50   ~ 0
+VC1
 $EndSCHEMATC
