@@ -241,28 +241,6 @@ F 3 "~" H 8450 2950 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP3
-U 1 1 5C0024E7
-P 9450 5350
-F 0 "JP3" H 9350 5400 50  0000 C CNN
-F 1 "A1" H 9550 5400 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9450 5350 50  0001 C CNN
-F 3 "~" H 9450 5350 50  0001 C CNN
-	1    9450 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP4
-U 1 1 5C002617
-P 9700 5450
-F 0 "JP4" H 9600 5500 50  0000 C CNN
-F 1 "A2" H 9800 5500 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9700 5450 50  0001 C CNN
-F 3 "~" H 9700 5450 50  0001 C CNN
-	1    9700 5450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0108
 U 1 1 5C01A43E
 P 1650 950
@@ -835,60 +813,8 @@ F 3 "~" H 750 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 550  6700
-$Comp
-L Device:R_Pack04 RN5
-U 1 1 5C4B78BC
-P 10350 5350
-F 0 "RN5" V 9933 5350 50  0000 C CNN
-F 1 "10K_Pack04" V 10024 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 10625 5350 50  0001 C CNN
-F 3 "~" H 10350 5350 50  0001 C CNN
-F 4 "SMD" H 50  250 50  0001 C CNN "Package"
-	1    10350 5350
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	8450 2650 8450 2800
-Wire Wire Line
-	9150 5250 9550 5250
-Wire Wire Line
-	9150 5250 9150 5350
-Wire Wire Line
-	9300 5350 9150 5350
-Connection ~ 9150 5350
-Wire Wire Line
-	9150 5350 9150 5450
-Wire Wire Line
-	9550 5450 9150 5450
-Wire Wire Line
-	10550 5250 10650 5250
-Wire Wire Line
-	10650 5250 10650 5350
-Wire Wire Line
-	10550 5550 10650 5550
-Wire Wire Line
-	10550 5450 10650 5450
-Connection ~ 10650 5450
-Wire Wire Line
-	10650 5450 10650 5550
-Wire Wire Line
-	10550 5350 10650 5350
-Connection ~ 10650 5350
-Wire Wire Line
-	10650 5350 10650 5450
-Wire Wire Line
-	10150 5250 9850 5250
-Wire Wire Line
-	10150 5350 9600 5350
-Wire Wire Line
-	9850 5450 10150 5450
-NoConn ~ 10150 5550
-Text Label 9950 5250 0    50   ~ 0
-A0
-Text Label 9950 5350 0    50   ~ 0
-A1
-Text Label 9950 5450 0    50   ~ 0
-A2
 $Comp
 L Device:C C9
 U 1 1 5CC83074
@@ -1495,18 +1421,6 @@ ADC
 Text Notes 4200 7500 0    50   ~ 0
 i2c Addresses:\nPCA9685PW --\nMPU-9250 --\nMPC3021 --\nDisplay --
 $Comp
-L power:GND #PWR011
-U 1 1 5E262FFC
-P 10650 5550
-F 0 "#PWR011" H 10650 5300 50  0001 C CNN
-F 1 "GND" H 10655 5377 50  0000 C CNN
-F 2 "" H 10650 5550 50  0001 C CNN
-F 3 "" H 10650 5550 50  0001 C CNN
-	1    10650 5550
-	1    0    0    -1  
-$EndComp
-Connection ~ 10650 5550
-$Comp
 L power:GND #PWR010
 U 1 1 5E2ACCA1
 P 8800 3850
@@ -1916,10 +1830,10 @@ $EndComp
 Wire Wire Line
 	1150 5300 1250 5300
 $Comp
-L Device:R R?
+L Device:R R14
 U 1 1 5E332011
 P 8450 3500
-F 0 "R?" H 8520 3546 50  0000 L CNN
+F 0 "R14" H 8520 3546 50  0000 L CNN
 F 1 "10K" H 8520 3455 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 8380 3500 50  0001 C CNN
 F 3 "~" H 8450 3500 50  0001 C CNN
@@ -1945,10 +1859,10 @@ Connection ~ 8450 3250
 Wire Wire Line
 	8450 3250 9100 3250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 5E42228B
 P 8450 3850
-F 0 "#PWR?" H 8450 3600 50  0001 C CNN
+F 0 "#PWR0107" H 8450 3600 50  0001 C CNN
 F 1 "GND" H 8455 3677 50  0000 C CNN
 F 2 "" H 8450 3850 50  0001 C CNN
 F 3 "" H 8450 3850 50  0001 C CNN

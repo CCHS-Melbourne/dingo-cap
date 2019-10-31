@@ -119,7 +119,7 @@ U 1 1 5DE79FB0
 P 2700 6000
 F 0 "J201" V 2572 6080 50  0000 L CNN
 F 1 "Bootstrap" V 2663 6080 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2700 6000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm" H 2700 6000 50  0001 C CNN
 F 3 "~" H 2700 6000 50  0001 C CNN
 	1    2700 6000
 	0    1    1    0   
@@ -518,7 +518,7 @@ P 8200 4700
 F 0 "U203" H 8200 5537 60  0000 C CNN
 F 1 "BQ29209DRBR" H 8200 5431 60  0000 C CNN
 F 2 "libs:BQ29209DRBR" H 8200 4700 60  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29209" H 7400 5100 60  0000 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29209" H 7400 5100 60  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/texas-instruments/BQ29209DRBR/296-27677-1-ND/2350211" H 8200 4700 50  0001 C CNN "Link"
 F 5 "BQ29209DRBR" H 8200 4700 50  0001 C CNN "Mfg Part #"
 F 6 "8-VDFN Exposed Pad" H 8200 4700 50  0001 C CNN "Package"
