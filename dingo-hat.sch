@@ -670,17 +670,6 @@ F 3 "" H 6300 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5C20A2ED
-P 700 5300
-F 0 "J?" H 779 5292 50  0000 L CNN
-F 1 "9-13V LiPo Charge" H 50  5400 50  0000 L CNN
-F 2 "" H 700 5300 50  0001 C CNN
-F 3 "~" H 700 5300 50  0001 C CNN
-	1    700  5300
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:C C3
 U 1 1 5C14B529
 P 1650 7100
@@ -1346,8 +1335,8 @@ L dingo-hat:MCP3021 U?
 U 1 1 5DF4F0A2
 P 5750 5900
 AR Path="/5DC297AB/5DF4F0A2" Ref="U?"  Part="1" 
-AR Path="/5DF4F0A2" Ref="U?"  Part="1" 
-F 0 "U?" H 5600 6150 50  0000 C CNN
+AR Path="/5DF4F0A2" Ref="U1"  Part="1" 
+F 0 "U1" H 5600 6150 50  0000 C CNN
 F 1 "MCP3021" H 5750 5650 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 5750 5900 50  0001 C CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011709" H 5750 5900 50  0001 C CNN
@@ -1362,12 +1351,12 @@ F 10 "1.64000" H 5750 5900 50  0001 C CNN "Unit Cost A$"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R13
 U 1 1 5DF4F0AF
 P 5000 6400
-AR Path="/5DF4F0AF" Ref="R?"  Part="1" 
+AR Path="/5DF4F0AF" Ref="R13"  Part="1" 
 AR Path="/5DC297AB/5DF4F0AF" Ref="R?"  Part="1" 
-F 0 "R?" V 4900 6300 50  0000 C CNN
+F 0 "R13" V 4900 6300 50  0000 C CNN
 F 1 "100k" V 4900 6500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 4930 6400 50  0001 C CNN
 F 3 "~" H 5000 6400 50  0001 C CNN
@@ -1376,12 +1365,12 @@ F 4 "0603" H 3700 350 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R12
 U 1 1 5DF4F0B6
 P 5000 6000
-AR Path="/5DF4F0B6" Ref="R?"  Part="1" 
+AR Path="/5DF4F0B6" Ref="R12"  Part="1" 
 AR Path="/5DC297AB/5DF4F0B6" Ref="R?"  Part="1" 
-F 0 "R?" V 4900 5900 50  0000 C CNN
+F 0 "R12" V 4900 5900 50  0000 C CNN
 F 1 "200k" V 4900 6100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 4930 6000 50  0001 C CNN
 F 3 "~" H 5000 6000 50  0001 C CNN
@@ -1396,12 +1385,12 @@ Wire Wire Line
 Wire Wire Line
 	5300 6050 5350 6050
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 5DF4F0CB
 P 5000 6650
-AR Path="/5DF4F0CB" Ref="#PWR?"  Part="1" 
+AR Path="/5DF4F0CB" Ref="#PWR05"  Part="1" 
 AR Path="/5DC297AB/5DF4F0CB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5000 6400 50  0001 C CNN
+F 0 "#PWR05" H 5000 6400 50  0001 C CNN
 F 1 "GND" H 5005 6477 50  0000 C CNN
 F 2 "" H 5000 6650 50  0001 C CNN
 F 3 "" H 5000 6650 50  0001 C CNN
@@ -1416,10 +1405,10 @@ Connection ~ 5000 6200
 Wire Wire Line
 	5000 6200 5000 6250
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5DF7855F
 P 2400 6950
-F 0 "R?" H 2330 6996 50  0000 R CNN
+F 0 "R2" H 2330 6996 50  0000 R CNN
 F 1 "47R" H 2330 6905 50  0000 R CNN
 F 2 "Resistors_SMD:R_0603" V 2330 6950 50  0001 C CNN
 F 3 "~" H 2400 6950 50  0001 C CNN
@@ -1432,13 +1421,13 @@ Wire Wire Line
 Wire Wire Line
 	2400 7150 2800 7150
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5DFBD275
 P 5300 6400
-AR Path="/5DFBD275" Ref="C?"  Part="1" 
+AR Path="/5DFBD275" Ref="C1"  Part="1" 
 AR Path="/5DA95EB0/5DFBD275" Ref="C?"  Part="1" 
 AR Path="/5DC297AB/5DFBD275" Ref="C?"  Part="1" 
-F 0 "C?" H 5415 6446 50  0000 L CNN
+F 0 "C1" H 5415 6446 50  0000 L CNN
 F 1 "DNF" H 5415 6355 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5338 6250 50  0001 C CNN
 F 3 "~" H 5300 6400 50  0001 C CNN
@@ -1469,12 +1458,12 @@ Wire Wire Line
 Wire Wire Line
 	6300 5150 6300 5200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 5E178DCB
 P 5200 5950
-AR Path="/5E178DCB" Ref="#PWR?"  Part="1" 
+AR Path="/5E178DCB" Ref="#PWR07"  Part="1" 
 AR Path="/5DC297AB/5E178DCB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5200 5700 50  0001 C CNN
+F 0 "#PWR07" H 5200 5700 50  0001 C CNN
 F 1 "GND" H 5205 5777 50  0000 C CNN
 F 2 "" H 5200 5950 50  0001 C CNN
 F 3 "" H 5200 5950 50  0001 C CNN
@@ -1486,10 +1475,10 @@ Wire Wire Line
 Wire Wire Line
 	5200 5900 5200 5950
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR06
 U 1 1 5E1CD7B4
 P 5200 5700
-F 0 "#PWR?" H 5200 5550 50  0001 C CNN
+F 0 "#PWR06" H 5200 5550 50  0001 C CNN
 F 1 "+3.3V" H 5215 5873 50  0000 C CNN
 F 2 "" H 5200 5700 50  0001 C CNN
 F 3 "" H 5200 5700 50  0001 C CNN
@@ -1513,10 +1502,10 @@ ADC
 Text Notes 5650 6650 0    50   ~ 0
 i2c Addresses:\nPCA9685PW --\nMPU-9250 --\nMPC3021 --\nDisplay --
 $Comp
-L power:GND #PWR?
+L power:GND #PWR011
 U 1 1 5E262FFC
 P 10600 5300
-F 0 "#PWR?" H 10600 5050 50  0001 C CNN
+F 0 "#PWR011" H 10600 5050 50  0001 C CNN
 F 1 "GND" H 10605 5127 50  0000 C CNN
 F 2 "" H 10600 5300 50  0001 C CNN
 F 3 "" H 10600 5300 50  0001 C CNN
@@ -1525,10 +1514,10 @@ F 3 "" H 10600 5300 50  0001 C CNN
 $EndComp
 Connection ~ 10600 5300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR010
 U 1 1 5E2ACCA1
 P 8800 3850
-F 0 "#PWR?" H 8800 3600 50  0001 C CNN
+F 0 "#PWR010" H 8800 3600 50  0001 C CNN
 F 1 "GND" H 8805 3677 50  0000 C CNN
 F 2 "" H 8800 3850 50  0001 C CNN
 F 3 "" H 8800 3850 50  0001 C CNN
@@ -1550,10 +1539,10 @@ Connection ~ 8800 3650
 Wire Wire Line
 	8800 3650 8800 3550
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J13
 U 1 1 5DB725E6
 P 6200 2950
-F 0 "J?" H 6200 3150 50  0000 C CNN
+F 0 "J13" H 6200 3150 50  0000 C CNN
 F 1 "i2c_display" H 6200 2650 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6200 2950 50  0001 C CNN
 F 3 "~" H 6200 2950 50  0001 C CNN
@@ -1562,10 +1551,10 @@ F 4 "https://tronixlabs.com.au/sensors/distance/ultrasonic/ultrasonic-distance-s
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 5DB85148
 P 6500 3150
-F 0 "#PWR?" H 6500 2900 50  0001 C CNN
+F 0 "#PWR08" H 6500 2900 50  0001 C CNN
 F 1 "GND" H 6505 2977 50  0000 C CNN
 F 2 "" H 6500 3150 50  0001 C CNN
 F 3 "" H 6500 3150 50  0001 C CNN
@@ -1577,10 +1566,10 @@ SDA_3.3
 Text Label 6750 2850 2    50   ~ 0
 SCL_3.3
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR09
 U 1 1 5DB85AD4
 P 6900 2850
-F 0 "#PWR?" H 6900 2700 50  0001 C CNN
+F 0 "#PWR09" H 6900 2700 50  0001 C CNN
 F 1 "+5V" H 6915 3023 50  0000 C CNN
 F 2 "" H 6900 2850 50  0001 C CNN
 F 3 "" H 6900 2850 50  0001 C CNN
@@ -1600,27 +1589,27 @@ Wire Wire Line
 Wire Wire Line
 	6750 2750 6400 2750
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J5
 U 1 1 5DBAD292
 P 700 4900
-F 0 "J?" H 800 5050 50  0000 C CNN
+F 0 "J5" H 800 5050 50  0000 C CNN
 F 1 "LiPo-Balance" H 250 4700 50  0000 L CNN
 F 2 "Connectors_JST:JST_XH_S03B-XH-A_03x2.50mm_Angled" H 700 4900 50  0001 C CNN
 F 3 "~" H 700 4900 50  0001 C CNN
 	1    700  4900
 	-1   0    0    -1  
 $EndComp
-Text Notes 150  5350 0    50   ~ 0
+Text Notes 700  5850 0    50   ~ 0
 Need BarrelJack footprint/model.
 Text Label 5100 4600 2    50   ~ 0
 BatterySupply
 Text Notes 4300 2100 0    157  ~ 0
 5VDC PWM for fan to header?
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J1
 U 1 1 5DD189E2
 P 700 4400
-F 0 "J?" H 750 4450 50  0000 L CNN
+F 0 "J1" H 750 4450 50  0000 L CNN
 F 1 "LiPo-Power" H 450 4200 50  0000 L CNN
 F 2 "libs:SolderWirePad_2x_5.08mm_14-18AWG-2mmDrill" H 700 4400 50  0001 C CNN
 F 3 "~" H 700 4400 50  0001 C CNN
@@ -1628,10 +1617,10 @@ F 3 "~" H 700 4400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J11
 U 1 1 5DD1934F
 P 3550 4600
-F 0 "J?" H 3629 4592 50  0000 L CNN
+F 0 "J11" H 3629 4592 50  0000 L CNN
 F 1 "Bypass-Power" H 3629 4501 50  0000 L CNN
 F 2 "libs:SolderWirePad_2x_5.08mm_14-18AWG-2mmDrill" H 3550 4600 50  0001 C CNN
 F 3 "~" H 3550 4600 50  0001 C CNN
@@ -1639,10 +1628,10 @@ F 3 "~" H 3550 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J12
 U 1 1 5DD1B368
 P 3550 5250
-F 0 "J?" H 3629 5242 50  0000 L CNN
+F 0 "J12" H 3629 5242 50  0000 L CNN
 F 1 "Chassis-Out" H 3629 5151 50  0000 L CNN
 F 2 "libs:SolderWirePad_2x_5.08mm_14-18AWG-2mmDrill" H 3550 5250 50  0001 C CNN
 F 3 "~" H 3550 5250 50  0001 C CNN
@@ -1656,13 +1645,13 @@ VC1
 Text Label 1000 5000 0    50   ~ 0
 VC0
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Device:Ferrite_Bead_Small FB2
 U 1 1 5DC2801D
 P 1500 4400
-AR Path="/5DC2801D" Ref="FB?"  Part="1" 
+AR Path="/5DC2801D" Ref="FB2"  Part="1" 
 AR Path="/5DA95EB0/5DC2801D" Ref="FB?"  Part="1" 
 AR Path="/5DC297AB/5DC2801D" Ref="FB?"  Part="1" 
-F 0 "FB?" V 1450 4300 50  0000 C CNN
+F 0 "FB2" V 1450 4300 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 1354 4400 50  0001 C CNN
 F 2 "Resistors_SMD:R_0603" V 1430 4400 50  0001 C CNN
 F 3 "~" H 1500 4400 50  0001 C CNN
@@ -1677,44 +1666,44 @@ F 10 "8A" V 1450 4500 50  0000 C CNN "DCR"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Device:Ferrite_Bead_Small FB1
 U 1 1 5DC440E3
-P 1100 5300
-AR Path="/5DC440E3" Ref="FB?"  Part="1" 
+P 1350 5300
+AR Path="/5DC440E3" Ref="FB1"  Part="1" 
 AR Path="/5DA95EB0/5DC440E3" Ref="FB?"  Part="1" 
 AR Path="/5DC297AB/5DC440E3" Ref="FB?"  Part="1" 
-F 0 "FB?" V 1050 5200 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 954 5300 50  0001 C CNN
-F 2 "Resistors_SMD:R_0603" V 1030 5300 50  0001 C CNN
-F 3 "~" H 1100 5300 50  0001 C CNN
-F 4 "FERRITE BEAD 8A 22 OHM 0603 1 LN" H 1100 5300 50  0001 C CNN "Description"
-F 5 "https://www.digikey.com.au/product-detail/en/murata-electronics/BLM18SN220TN1D/490-13961-1-ND/6098911" H 1100 5300 50  0001 C CNN "Link"
-F 6 "0603" V 1150 5150 50  0001 C CNN "Package"
-F 7 "Digi-Key" H 1100 5300 50  0001 C CNN "Supplier 1"
-F 8 "490-13961-1-ND" H 1100 5300 50  0001 C CNN "Supplier Part Number 1"
-F 9 "0.23000" H 1100 5300 50  0001 C CNN "Unit Cost A$"
-F 10 "8A" V 1050 5400 50  0000 C CNN "DCR"
-	1    1100 5300
+F 0 "FB1" V 1300 5200 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 1204 5300 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 1280 5300 50  0001 C CNN
+F 3 "~" H 1350 5300 50  0001 C CNN
+F 4 "FERRITE BEAD 8A 22 OHM 0603 1 LN" H 1350 5300 50  0001 C CNN "Description"
+F 5 "https://www.digikey.com.au/product-detail/en/murata-electronics/BLM18SN220TN1D/490-13961-1-ND/6098911" H 1350 5300 50  0001 C CNN "Link"
+F 6 "0603" V 1400 5150 50  0001 C CNN "Package"
+F 7 "Digi-Key" H 1350 5300 50  0001 C CNN "Supplier 1"
+F 8 "490-13961-1-ND" H 1350 5300 50  0001 C CNN "Supplier Part Number 1"
+F 9 "0.23000" H 1350 5300 50  0001 C CNN "Unit Cost A$"
+F 10 "8A" V 1300 5400 50  0000 C CNN "DCR"
+	1    1350 5300
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 5DC92C98
-P 950 5450
-F 0 "#PWR?" H 950 5200 50  0001 C CNN
-F 1 "GND" H 955 5277 50  0000 C CNN
-F 2 "" H 950 5450 50  0001 C CNN
-F 3 "" H 950 5450 50  0001 C CNN
-	1    950  5450
+P 1200 5550
+F 0 "#PWR01" H 1200 5300 50  0001 C CNN
+F 1 "GND" H 1205 5377 50  0000 C CNN
+F 2 "" H 1200 5550 50  0001 C CNN
+F 3 "" H 1200 5550 50  0001 C CNN
+	1    1200 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3750 4600 3800 4600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR03
 U 1 1 5DCE2D79
 P 3800 5400
-F 0 "#PWR?" H 3800 5150 50  0001 C CNN
+F 0 "#PWR03" H 3800 5150 50  0001 C CNN
 F 1 "GND" H 3805 5227 50  0000 C CNN
 F 2 "" H 3800 5400 50  0001 C CNN
 F 3 "" H 3800 5400 50  0001 C CNN
@@ -1722,10 +1711,10 @@ F 3 "" H 3800 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 5DCE336A
 P 3800 4850
-F 0 "#PWR?" H 3800 4600 50  0001 C CNN
+F 0 "#PWR02" H 3800 4600 50  0001 C CNN
 F 1 "GND" H 3805 4677 50  0000 C CNN
 F 2 "" H 3800 4850 50  0001 C CNN
 F 3 "" H 3800 4850 50  0001 C CNN
@@ -1737,11 +1726,9 @@ Wire Wire Line
 Wire Wire Line
 	1000 4400 900  4400
 Wire Wire Line
-	900  5300 1000 5300
+	1150 5500 1200 5500
 Wire Wire Line
-	900  5400 950  5400
-Wire Wire Line
-	950  5400 950  5450
+	1200 5500 1200 5550
 Wire Wire Line
 	3750 4700 3800 4700
 Wire Wire Line
@@ -1749,10 +1736,10 @@ Wire Wire Line
 Wire Wire Line
 	3800 5350 3800 5400
 $Comp
-L Device:Fuse F?
+L Device:Fuse F2
 U 1 1 5DE6CA99
 P 3950 4600
-F 0 "F?" V 3850 4500 50  0000 C TNN
+F 0 "F2" V 3850 4500 50  0000 C TNN
 F 1 "Fuse" V 3662 4600 50  0001 C CNN
 F 2 "Resistors_SMD:R_1206" V 3880 4600 50  0001 C CNN
 F 3 "~" H 3950 4600 50  0001 C CNN
@@ -1768,10 +1755,10 @@ F 11 "32V" H 3950 4600 50  0001 C CNN "Voltage Rating"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F?
+L Device:Fuse F1
 U 1 1 5DE711BB
 P 1150 4400
-F 0 "F?" V 1050 4300 50  0000 C TNN
+F 0 "F1" V 1050 4300 50  0000 C TNN
 F 1 "Fuse" V 862 4400 50  0001 C CNN
 F 2 "Resistors_SMD:R_1206" V 1080 4400 50  0001 C CNN
 F 3 "~" H 1150 4400 50  0001 C CNN
@@ -1787,13 +1774,13 @@ F 11 "32V" H 1150 4400 50  0001 C CNN "Voltage Rating"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Device:Ferrite_Bead_Small FB3
 U 1 1 5DEAF0AD
 P 4300 4600
-AR Path="/5DEAF0AD" Ref="FB?"  Part="1" 
+AR Path="/5DEAF0AD" Ref="FB3"  Part="1" 
 AR Path="/5DA95EB0/5DEAF0AD" Ref="FB?"  Part="1" 
 AR Path="/5DC297AB/5DEAF0AD" Ref="FB?"  Part="1" 
-F 0 "FB?" V 4250 4500 50  0000 C CNN
+F 0 "FB3" V 4250 4500 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 4154 4600 50  0001 C CNN
 F 2 "Resistors_SMD:R_0603" V 4230 4600 50  0001 C CNN
 F 3 "~" H 4300 4600 50  0001 C CNN
@@ -1808,10 +1795,10 @@ F 10 "8A" V 4250 4700 50  0000 C CNN "DCR"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky_Small D?
+L Device:D_Schottky_Small D3
 U 1 1 5DEC6601
 P 4150 4750
-F 0 "D?" V 4104 4818 50  0000 L CNN
+F 0 "D3" V 4104 4818 50  0000 L CNN
 F 1 "30V 1A" V 4195 4818 50  0000 L CNN
 F 2 "Diodes_SMD:D_SOD-123F" V 4150 4750 50  0001 C CNN
 F 3 "http://www.smc-diodes.com/propdf/DSS12U%20THRU%20DSS125U%20N1873%20REV.A.pdf" V 4150 4750 50  0001 C CNN
@@ -1829,10 +1816,10 @@ $EndComp
 Wire Wire Line
 	3800 4700 3800 4850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 5DF40874
 P 4150 4850
-F 0 "#PWR?" H 4150 4600 50  0001 C CNN
+F 0 "#PWR04" H 4150 4600 50  0001 C CNN
 F 1 "GND" H 4155 4677 50  0000 C CNN
 F 2 "" H 4150 4850 50  0001 C CNN
 F 3 "" H 4150 4850 50  0001 C CNN
@@ -1858,10 +1845,10 @@ Connection ~ 1350 4400
 Text Label 1050 4650 0    50   ~ 0
 LiBatt-
 $Comp
-L Device:D_Schottky_Small D?
+L Device:D_Schottky_Small D2
 U 1 1 5DEC9EED
 P 1350 4500
-F 0 "D?" V 1304 4568 50  0000 L CNN
+F 0 "D2" V 1304 4568 50  0000 L CNN
 F 1 "30V 1A" V 1395 4568 50  0000 L CNN
 F 2 "Diodes_SMD:D_SOD-123F" V 1350 4500 50  0001 C CNN
 F 3 "http://www.smc-diodes.com/propdf/DSS12U%20THRU%20DSS125U%20N1873%20REV.A.pdf" V 1350 4500 50  0001 C CNN
@@ -1892,7 +1879,7 @@ Wire Wire Line
 Wire Wire Line
 	900  5000 1900 5000
 Wire Wire Line
-	1200 5300 1900 5300
+	1450 5300 1900 5300
 Wire Wire Line
 	4550 5250 4550 4600
 Wire Wire Line
@@ -1914,4 +1901,25 @@ Wire Wire Line
 Connection ~ 5000 4600
 Wire Wire Line
 	5000 4600 5150 4600
+$Comp
+L dingo-hat:PJ-037B J?
+U 1 1 5E240E50
+P 950 5400
+F 0 "J?" H 945 5740 50  0000 C CNN
+F 1 "PJ-037B" H 700 5600 50  0000 C CNN
+F 2 "libs:CUI_PJ-037B" H 950 5400 50  0001 L BNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/pj-037b.pdf" H 950 5400 50  0001 L BNN
+F 4 "2.5A" H 950 5400 50  0001 C CNN "DCR"
+F 5 "CONN PWR JACK 2.5X5.5MM SOLDER" H 950 5400 50  0001 C CNN "Description"
+F 6 "https://www.digikey.com.au/product-detail/en/cui-devices/PJ-037B/CP-037B-ND/1644546" H 950 5400 50  0001 C CNN "Link"
+F 7 "CUI" H 950 5400 50  0001 C CNN "Manufacturer"
+F 8 "PJ-037B" H 950 5400 50  0001 C CNN "Mfg Part #"
+F 9 "Digi-Key" H 950 5400 50  0001 C CNN "Supplier 1"
+F 10 "CP-037B-ND" H 950 5400 50  0001 C CNN "Supplier Part Number 1"
+F 11 "0.89000" H 950 5400 50  0001 C CNN "Unit Cost A$"
+	1    950  5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5300 1250 5300
 $EndSCHEMATC

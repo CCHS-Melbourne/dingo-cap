@@ -646,6 +646,37 @@ X VSS 9 600 -150 300 L 59 59 1 0 W
 ENDDRAW
 ENDDEF
 #
+# dingo-hat_PJ-037B
+#
+DEF dingo-hat_PJ-037B J 0 40 Y N 1 L N
+F0 "J" -300 200 50 H V L BNN
+F1 "dingo-hat_PJ-037B" -300 -200 50 H V L BNN
+F2 "CUI_PJ-037B" 0 0 50 H I L BNN
+F3 "CP-037B-ND" 0 0 50 H I L BNN
+F4 "2.5 x 6.5 mm, 2.5 A, Horizontal, Through Hole, Dc Power Jack Connector" 0 0 50 H I L BNN
+F5 "CUI Devices" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "https://www.digikey.com.au/product-detail/en/cui-devices/PJ-037B/CP-037B-ND/1644546?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F8 "https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-037b?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM" 0 0 50 H I L BNN
+F9 "PJ-037B" 0 0 50 H I L BNN
+DRAW
+A -225 100 50 899 -900 0 0 6 N -225 50 -225 150
+P 2 0 0 6 -225 150 -50 150 N
+P 2 0 0 6 -150 -50 -175 -100 N
+P 2 0 0 6 -125 -100 -150 -50 N
+P 2 0 0 6 -50 25 0 25 N
+P 2 0 0 6 -50 50 -225 50 N
+P 2 0 0 6 -50 50 -50 25 N
+P 2 0 0 6 -50 150 -50 50 N
+P 2 0 0 6 -50 175 -50 150 N
+P 2 0 0 6 0 -100 -125 -100 N
+P 2 0 0 6 0 25 0 175 N
+P 2 0 0 6 0 175 -50 175 N
+X 1 1 200 100 200 L 40 40 0 0 P
+X 2 2 200 -100 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # power_+3.3V
 #
 DEF power_+3.3V #PWR 0 0 Y Y 1 F P
