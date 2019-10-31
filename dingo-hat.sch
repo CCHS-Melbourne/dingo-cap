@@ -1544,7 +1544,7 @@ U 1 1 5DB725E6
 P 6200 2950
 F 0 "J13" H 6200 3150 50  0000 C CNN
 F 1 "i2c_display" H 6200 2650 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6200 2950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 6200 2950 50  0001 C CNN
 F 3 "~" H 6200 2950 50  0001 C CNN
 F 4 "https://tronixlabs.com.au/sensors/distance/ultrasonic/ultrasonic-distance-sensor-module-hc-sr04-2-450-cm-australia/" H 6200 2950 50  0001 C CNN "Link"
 	1    6200 2950
