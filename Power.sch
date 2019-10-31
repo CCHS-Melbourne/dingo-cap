@@ -24,7 +24,7 @@ AR Path="/5DA994B6" Ref="U?"  Part="1"
 AR Path="/5DA95EB0/5DA994B6" Ref="U301"  Part="1" 
 F 0 "U301" H 4750 3375 50  0000 C CNN
 F 1 "AOZ6605PI-1" H 4750 3284 50  0000 C CNN
-F 2 "" H 4850 3000 50  0001 C CNN
+F 2 "libs:SOIC-8-EP--AOZ6605PI-1" H 4850 3000 50  0001 C CNN
 F 3 "http://www.aosmd.com/res/data_sheets/AOZ6605PI-1.pdf" H 4850 3000 50  0001 C CNN
 F 4 "https://www.digikey.com.au/product-detail/en/alpha-omega-semiconductor-inc/AOZ6605PI-1/785-1853-1-ND/10258148" H 4750 3000 50  0001 C CNN "Link"
 F 5 "A&O" H 4750 3000 50  0001 C CNN "Manufacturer"
@@ -41,7 +41,7 @@ U 1 1 5DBD6690
 P 5450 4250
 F 0 "L301" V 5650 4250 50  0000 C BNN
 F 1 "3.3uH" V 5550 4250 50  0000 C BNN
-F 2 "" H 5450 4250 50  0001 C CNN
+F 2 "libs:Inductor-SMT-MPLCH0740" H 5450 4250 50  0001 C CNN
 F 3 "~" H 5450 4250 50  0001 C CNN
 F 4 "FIXED IND 3.3UH 7.8A 19 MOHM SMD" V 5543 4250 50  0001 C CNN "Description"
 F 5 "https://www.digikey.com.au/product-detail/en/kemet/MPLCH0740L3R3/399-10991-1-ND/4506443" H 5450 4250 50  0001 C CNN "Link"
@@ -340,7 +340,7 @@ Wire Wire Line
 	950  3350 950  3450
 Wire Wire Line
 	950  3050 950  2850
-Text Notes 3450 1900 0    50   ~ 0
+Text Notes 850  2800 0    50   ~ 0
 SS 22nF=2mS soft start
 $Comp
 L Device:C C?
@@ -482,8 +482,6 @@ F 10 "0.15000" H 2950 3200 50  0001 C CNN "Unit Cost A$"
 	1    2950 3200
 	1    0    0    -1  
 $EndComp
-Text Notes 2000 2550 0    50   ~ 0
-TODO: figure out battery selection method, wire to DCDC VIN.
 Text HLabel 1750 2950 0    50   Input ~ 0
 BatterySupply
 $Comp

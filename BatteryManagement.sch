@@ -99,8 +99,6 @@ Text HLabel 1600 4350 0    50   UnSpc ~ 0
 LiBatt+
 Text HLabel 1600 5700 0    50   UnSpc ~ 0
 LiBatt-
-Wire Wire Line
-	1800 4350 3550 4350
 $Comp
 L Device:R R?
 U 1 1 5DE426CE
@@ -254,8 +252,6 @@ Wire Wire Line
 Connection ~ 2550 2800
 Wire Wire Line
 	2550 2800 2750 2800
-Text HLabel 4650 2800 2    50   UnSpc ~ 0
-LiBatt+
 Wire Wire Line
 	3900 2900 4000 2900
 Wire Wire Line
@@ -342,9 +338,6 @@ Wire Wire Line
 Connection ~ 4250 3350
 Wire Wire Line
 	4600 2950 4600 2800
-Connection ~ 4600 2800
-Wire Wire Line
-	4600 2800 4650 2800
 Text Notes 3600 2700 0    50   ~ 0
 1k PROG = 1.1A Charge (Max)
 Text HLabel 1650 2800 0    50   UnSpc ~ 0
@@ -550,7 +543,7 @@ Wire Wire Line
 Connection ~ 7250 4150
 Text Label 4250 2800 0    50   ~ 0
 LiBatt+
-Text Label 3250 4350 0    50   ~ 0
+Text Label 4250 4350 0    50   ~ 0
 LiBatt+
 Wire Wire Line
 	9300 4800 9300 4950
@@ -667,4 +660,11 @@ Wire Wire Line
 	1600 4350 1800 4350
 Connection ~ 1800 4350
 NoConn ~ 9000 4200
+Wire Wire Line
+	4600 2800 5400 2800
+Wire Wire Line
+	5400 2800 5400 4350
+Wire Wire Line
+	1800 4350 5400 4350
+Connection ~ 4600 2800
 $EndSCHEMATC
