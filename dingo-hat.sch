@@ -1603,8 +1603,8 @@ Text Notes 700  5850 0    50   ~ 0
 Need BarrelJack footprint/model.
 Text Label 5100 4600 2    50   ~ 0
 BatterySupply
-Text Notes 4300 2100 0    157  ~ 0
-5VDC PWM for fan to header?
+Text Notes 4300 2100 0    118  ~ 0
+Is there a spare 5V \nPWM for fan to header? I think there is.
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5DD189E2
@@ -1902,10 +1902,10 @@ Connection ~ 5000 4600
 Wire Wire Line
 	5000 4600 5150 4600
 $Comp
-L dingo-hat:PJ-037B J?
+L dingo-hat:PJ-037B J10
 U 1 1 5E240E50
 P 950 5400
-F 0 "J?" H 945 5740 50  0000 C CNN
+F 0 "J10" H 945 5740 50  0000 C CNN
 F 1 "PJ-037B" H 700 5600 50  0000 C CNN
 F 2 "libs:CUI_PJ-037B" H 950 5400 50  0001 L BNN
 F 3 "https://www.cuidevices.com/product/resource/digikeypdf/pj-037b.pdf" H 950 5400 50  0001 L BNN
