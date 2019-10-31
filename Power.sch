@@ -462,26 +462,6 @@ Wire Wire Line
 Wire Wire Line
 	7300 4050 7300 4250
 Connection ~ 6950 4250
-$Comp
-L Device:C C?
-U 1 1 5DEA1AB8
-P 2950 3200
-AR Path="/5DEA1AB8" Ref="C?"  Part="1" 
-AR Path="/5DA95EB0/5DEA1AB8" Ref="C304"  Part="1" 
-F 0 "C304" H 3065 3246 50  0000 L CNN
-F 1 "1uF" H 3065 3155 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2988 3050 50  0001 C CNN
-F 3 "~" H 2950 3200 50  0001 C CNN
-F 4 "0603" H 2850 3300 50  0000 L TNN "Package"
-F 5 "CAP CER 1UF 25V X5R 0603" H 2950 3200 50  0001 C CNN "Description"
-F 6 "25V" H 2950 3150 50  0000 R TNN "Voltage Rating"
-F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 2950 3200 50  0001 C CNN "Link"
-F 8 "Digi-Key" H 2950 3200 50  0001 C CNN "Supplier 1"
-F 9 "311-1445-1-ND" H 2950 3200 50  0001 C CNN "Supplier Part Number 1"
-F 10 "0.15000" H 2950 3200 50  0001 C CNN "Unit Cost A$"
-	1    2950 3200
-	1    0    0    -1  
-$EndComp
 Text HLabel 1750 2950 0    50   Input ~ 0
 BatterySupply
 $Comp
@@ -542,28 +522,6 @@ Connection ~ 2050 2950
 Wire Wire Line
 	2050 2950 2500 2950
 Connection ~ 2500 2950
-Wire Wire Line
-	2500 2950 2950 2950
-$Comp
-L power:GND #PWR?
-U 1 1 5DC20C47
-P 2950 3450
-AR Path="/5DC20C47" Ref="#PWR?"  Part="1" 
-AR Path="/5DA95EB0/5DC20C47" Ref="#PWR0304"  Part="1" 
-F 0 "#PWR0304" H 2950 3200 50  0001 C CNN
-F 1 "GND" H 2955 3277 50  0000 C CNN
-F 2 "" H 2950 3450 50  0001 C CNN
-F 3 "" H 2950 3450 50  0001 C CNN
-	1    2950 3450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 3350 2950 3450
-Wire Wire Line
-	2950 3050 2950 2950
-Connection ~ 2950 2950
-Wire Wire Line
-	2950 2950 3400 2950
 $Comp
 L Device:C C?
 U 1 1 5DC24182
@@ -649,4 +607,6 @@ Wire Wire Line
 	950  2850 4350 2850
 Wire Wire Line
 	1750 2950 2050 2950
+Wire Wire Line
+	2500 2950 3400 2950
 $EndSCHEMATC
