@@ -100,21 +100,21 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 5DBE04EC
-P 1450 3200
+P 950 3200
 AR Path="/5DBE04EC" Ref="C?"  Part="1" 
 AR Path="/5DA95EB0/5DBE04EC" Ref="C301"  Part="1" 
-F 0 "C301" H 1565 3246 50  0000 L CNN
-F 1 "22nF" H 1565 3155 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1488 3050 50  0001 C CNN
-F 3 "~" H 1450 3200 50  0001 C CNN
-F 4 "0603" H 1350 3300 50  0000 L TNN "Package"
-F 5 "CAP CER 0.022UF 50V X7R 0603" H 1450 3200 50  0001 C CNN "Description"
-F 6 "50V" H 1450 3150 50  0000 R TNN "Voltage Rating"
-F 7 "https://www.digikey.com.au/product-detail/en/kemet/C0603C223K5RACTU/399-1280-1-ND/416056" H 1450 3200 50  0001 C CNN "Link"
-F 8 "Digi-Key" H 1450 3200 50  0001 C CNN "Supplier 1"
-F 9 "399-1280-1-ND" H 1450 3200 50  0001 C CNN "Supplier Part Number 1"
-F 10 "0.15000" H 1450 3200 50  0001 C CNN "Unit Cost A$"
-	1    1450 3200
+F 0 "C301" H 1065 3246 50  0000 L CNN
+F 1 "22nF" H 1065 3155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 988 3050 50  0001 C CNN
+F 3 "~" H 950 3200 50  0001 C CNN
+F 4 "0603" H 850 3300 50  0000 L TNN "Package"
+F 5 "CAP CER 0.022UF 50V X7R 0603" H 950 3200 50  0001 C CNN "Description"
+F 6 "50V" H 950 3150 50  0000 R TNN "Voltage Rating"
+F 7 "https://www.digikey.com.au/product-detail/en/kemet/C0603C223K5RACTU/399-1280-1-ND/416056" H 950 3200 50  0001 C CNN "Link"
+F 8 "Digi-Key" H 950 3200 50  0001 C CNN "Supplier 1"
+F 9 "399-1280-1-ND" H 950 3200 50  0001 C CNN "Supplier Part Number 1"
+F 10 "0.15000" H 950 3200 50  0001 C CNN "Unit Cost A$"
+	1    950  3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -326,20 +326,20 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5DC01D58
-P 1450 3450
+P 950 3450
 AR Path="/5DC01D58" Ref="#PWR?"  Part="1" 
 AR Path="/5DA95EB0/5DC01D58" Ref="#PWR0301"  Part="1" 
-F 0 "#PWR0301" H 1450 3200 50  0001 C CNN
-F 1 "GND" H 1455 3277 50  0000 C CNN
-F 2 "" H 1450 3450 50  0001 C CNN
-F 3 "" H 1450 3450 50  0001 C CNN
-	1    1450 3450
+F 0 "#PWR0301" H 950 3200 50  0001 C CNN
+F 1 "GND" H 955 3277 50  0000 C CNN
+F 2 "" H 950 3450 50  0001 C CNN
+F 3 "" H 950 3450 50  0001 C CNN
+	1    950  3450
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 3350 1450 3450
+	950  3350 950  3450
 Wire Wire Line
-	1450 3050 1450 2850
+	950  3050 950  2850
 Text Notes 3450 1900 0    50   ~ 0
 SS 22nF=2mS soft start
 $Comp
@@ -482,14 +482,10 @@ F 10 "0.15000" H 2950 3200 50  0001 C CNN "Unit Cost A$"
 	1    2950 3200
 	1    0    0    -1  
 $EndComp
-Text Notes 2250 2650 0    50   ~ 0
-More bulk capacitance on input needed. 22uF or more.
 Text Notes 2000 2550 0    50   ~ 0
 TODO: figure out battery selection method, wire to DCDC VIN.
-Text HLabel 2000 2950 0    50   Input ~ 0
-Supply
-Wire Wire Line
-	2000 2950 2050 2950
+Text HLabel 1750 2950 0    50   Input ~ 0
+BatterySupply
 $Comp
 L power:GND #PWR?
 U 1 1 5DC10607
@@ -652,5 +648,7 @@ $EndComp
 Wire Wire Line
 	3800 3350 3800 3450
 Wire Wire Line
-	1450 2850 4350 2850
+	950  2850 4350 2850
+Wire Wire Line
+	1750 2950 2050 2950
 $EndSCHEMATC

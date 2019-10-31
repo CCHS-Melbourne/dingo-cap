@@ -17,129 +17,127 @@ $EndDescr
 $Comp
 L dingo-hat:AP9211 U?
 U 1 1 5DC173E3
-P 2750 5100
+P 2650 5150
 AR Path="/5DA95EB0/5DAAD200/5DC173E3" Ref="U?"  Part="1" 
 AR Path="/5DC297AB/5DC173E3" Ref="U201"  Part="1" 
-F 0 "U201" H 2750 5525 50  0000 C CNN
-F 1 "AP9211" H 2750 5434 50  0000 C CNN
-F 2 "libs:6-UDFN-Exposed-Pad" H 2750 4950 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP9211.pdf" H 2750 4950 50  0001 C CNN
-	1    2750 5100
+F 0 "U201" H 2650 5575 50  0000 C CNN
+F 1 "AP9211" H 2650 5484 50  0000 C CNN
+F 2 "libs:6-UDFN-Exposed-Pad" H 2650 5000 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP9211.pdf" H 2650 5000 50  0001 C CNN
+	1    2650 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5DD0667E
-P 1900 5150
+P 1800 5200
 AR Path="/5DD0667E" Ref="C?"  Part="1" 
 AR Path="/5DA95EB0/5DD0667E" Ref="C?"  Part="1" 
 AR Path="/5DC297AB/5DD0667E" Ref="C201"  Part="1" 
-F 0 "C201" H 2015 5196 50  0000 L CNN
-F 1 "100nF" H 2015 5105 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1938 5000 50  0001 C CNN
-F 3 "~" H 1900 5150 50  0001 C CNN
-F 4 "0603" H 1800 5250 50  0000 L TNN "Package"
-F 5 "CAP CER 0.1UF 50V X7R 0603" H 1900 5150 50  0001 C CNN "Description"
-F 6 "50V" H 1900 5100 50  0000 R TNN "Voltage Rating"
-F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 1900 5150 50  0001 C CNN "Link"
-F 8 "Digi-Key" H 1900 5150 50  0001 C CNN "Supplier 1"
-F 9 "1276-1000-1-ND" H 1900 5150 50  0001 C CNN "Supplier Part Number 1"
-F 10 "0.15000" H 1900 5150 50  0001 C CNN "Unit Cost A$"
-	1    1900 5150
+F 0 "C201" H 1915 5246 50  0000 L CNN
+F 1 "100nF" H 1915 5155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1838 5050 50  0001 C CNN
+F 3 "~" H 1800 5200 50  0001 C CNN
+F 4 "0603" H 1700 5300 50  0000 L TNN "Package"
+F 5 "CAP CER 0.1UF 50V X7R 0603" H 1800 5200 50  0001 C CNN "Description"
+F 6 "50V" H 1800 5150 50  0000 R TNN "Voltage Rating"
+F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 1800 5200 50  0001 C CNN "Link"
+F 8 "Digi-Key" H 1800 5200 50  0001 C CNN "Supplier 1"
+F 9 "1276-1000-1-ND" H 1800 5200 50  0001 C CNN "Supplier Part Number 1"
+F 10 "0.15000" H 1800 5200 50  0001 C CNN "Unit Cost A$"
+	1    1800 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5DE42ED8
-P 3650 5250
+P 3550 5300
 AR Path="/5DE42ED8" Ref="R?"  Part="1" 
 AR Path="/5DC297AB/5DE42ED8" Ref="R203"  Part="1" 
-F 0 "R203" V 3550 5150 50  0000 C CNN
-F 1 "2k7" V 3550 5350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3580 5250 50  0001 C CNN
-F 3 "~" H 3650 5250 50  0001 C CNN
-F 4 "0603" H 2350 -800 50  0001 C CNN "Package"
-	1    3650 5250
+F 0 "R203" V 3450 5200 50  0000 C CNN
+F 1 "2k7" V 3450 5400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3480 5300 50  0001 C CNN
+F 3 "~" H 3550 5300 50  0001 C CNN
+F 4 "0603" H 2250 -750 50  0001 C CNN "Package"
+	1    3550 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 5100 3650 4950
+	3550 5150 3550 5000
 Wire Wire Line
-	3650 4950 3150 4950
+	3550 5000 3050 5000
 Wire Wire Line
-	1900 4300 1900 4500
+	1800 4350 1800 4550
 Wire Wire Line
-	1900 4800 1900 4900
+	1800 4850 1800 4950
 Wire Wire Line
-	2650 5550 2650 5650
+	2550 5600 2550 5700
 Wire Wire Line
-	2650 5650 2300 5650
+	2550 5700 2200 5700
 Wire Wire Line
-	1900 5650 1900 5300
+	1800 5700 1800 5350
 Wire Wire Line
-	1900 5000 1900 4900
-Connection ~ 1900 4900
+	1800 5050 1800 4950
+Connection ~ 1800 4950
 Wire Wire Line
-	2350 5100 2300 5100
+	2250 5150 2200 5150
 Wire Wire Line
-	2300 5100 2300 5650
+	2200 5150 2200 5700
 Wire Wire Line
-	1900 5650 2300 5650
-Connection ~ 2300 5650
+	1800 5700 2200 5700
+Connection ~ 2200 5700
 Wire Wire Line
-	1900 4900 2350 4900
+	1800 4950 2250 4950
 Wire Wire Line
-	2850 5550 2850 5650
+	2750 5600 2750 5700
 Wire Wire Line
-	2850 5650 3650 5650
-Connection ~ 3650 5650
+	2750 5700 3550 5700
+Connection ~ 3550 5700
 Wire Wire Line
-	3650 5650 3650 5400
-Text HLabel 1900 4300 0    50   UnSpc ~ 0
-Batt+
-Text HLabel 1900 5650 0    50   UnSpc ~ 0
-Batt-
+	3550 5700 3550 5450
+Text HLabel 1600 4350 0    50   UnSpc ~ 0
+LiBatt+
+Text HLabel 1600 5700 0    50   UnSpc ~ 0
+LiBatt-
 Wire Wire Line
-	1900 4300 3650 4300
-Text HLabel 3650 4300 2    50   UnSpc ~ 0
-Batt+
+	1800 4350 3550 4350
 $Comp
 L Device:R R?
 U 1 1 5DE426CE
-P 1900 4650
+P 1800 4700
 AR Path="/5DE426CE" Ref="R?"  Part="1" 
 AR Path="/5DC297AB/5DE426CE" Ref="R201"  Part="1" 
-F 0 "R201" V 1800 4550 50  0000 C CNN
-F 1 "470" V 1800 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1830 4650 50  0001 C CNN
-F 3 "~" H 1900 4650 50  0001 C CNN
-F 4 "0603" H 600 -1400 50  0001 C CNN "Package"
-	1    1900 4650
+F 0 "R201" V 1700 4600 50  0000 C CNN
+F 1 "470" V 1700 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1730 4700 50  0001 C CNN
+F 3 "~" H 1800 4700 50  0001 C CNN
+F 4 "0603" H 500 -1350 50  0001 C CNN "Package"
+	1    1800 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J201
 U 1 1 5DE79FB0
-P 2800 5950
-F 0 "J201" V 2672 6030 50  0000 L CNN
-F 1 "Bootstrap" V 2763 6030 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2800 5950 50  0001 C CNN
-F 3 "~" H 2800 5950 50  0001 C CNN
-	1    2800 5950
+P 2700 6000
+F 0 "J201" V 2572 6080 50  0000 L CNN
+F 1 "Bootstrap" V 2663 6080 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2700 6000 50  0001 C CNN
+F 3 "~" H 2700 6000 50  0001 C CNN
+	1    2700 6000
 	0    1    1    0   
 $EndComp
-Text Notes 2600 6100 0    50   ~ 0
+Text Notes 2500 6150 0    50   ~ 0
 Not sure if we'll need this to bring battery up on connect. Just do TH to check.
 Wire Wire Line
-	2700 5750 2700 5650
+	2600 5800 2600 5700
 Wire Wire Line
-	2700 5650 2650 5650
-Connection ~ 2650 5650
+	2600 5700 2550 5700
+Connection ~ 2550 5700
 Wire Wire Line
-	2850 5650 2800 5650
+	2750 5700 2700 5700
 Wire Wire Line
-	2800 5650 2800 5750
-Connection ~ 2850 5650
+	2700 5700 2700 5800
+Connection ~ 2750 5700
 $Comp
 L dingo-hat:MCP73213T-A6BI_MF U202
 U 1 1 5DE8020F
@@ -208,18 +206,18 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DE96FDF
-P 3650 5750
+P 3550 5800
 AR Path="/5DE96FDF" Ref="#PWR?"  Part="1" 
 AR Path="/5DC297AB/5DE96FDF" Ref="#PWR0203"  Part="1" 
-F 0 "#PWR0203" H 3650 5500 50  0001 C CNN
-F 1 "GND" H 3655 5577 50  0000 C CNN
-F 2 "" H 3650 5750 50  0001 C CNN
-F 3 "" H 3650 5750 50  0001 C CNN
-	1    3650 5750
+F 0 "#PWR0203" H 3550 5550 50  0001 C CNN
+F 1 "GND" H 3555 5627 50  0000 C CNN
+F 2 "" H 3550 5800 50  0001 C CNN
+F 3 "" H 3550 5800 50  0001 C CNN
+	1    3550 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 5650 3650 5750
+	3550 5700 3550 5800
 Wire Wire Line
 	4000 3750 4000 3350
 Wire Wire Line
@@ -257,7 +255,7 @@ Connection ~ 2550 2800
 Wire Wire Line
 	2550 2800 2750 2800
 Text HLabel 4650 2800 2    50   UnSpc ~ 0
-Batt+
+LiBatt+
 Wire Wire Line
 	3900 2900 4000 2900
 Wire Wire Line
@@ -349,242 +347,242 @@ Wire Wire Line
 	4600 2800 4650 2800
 Text Notes 3600 2700 0    50   ~ 0
 1k PROG = 1.1A Charge (Max)
-Text HLabel 1950 2800 0    50   UnSpc ~ 0
+Text HLabel 1650 2800 0    50   UnSpc ~ 0
 Chrg+
 $Comp
 L Device:R R?
 U 1 1 5DEB7344
-P 8750 4200
+P 9300 4200
 AR Path="/5DEB7344" Ref="R?"  Part="1" 
 AR Path="/5DC297AB/5DEB7344" Ref="R208"  Part="1" 
-F 0 "R208" V 8650 4100 50  0000 C CNN
-F 1 "150" V 8650 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8680 4200 50  0001 C CNN
-F 3 "~" H 8750 4200 50  0001 C CNN
-F 4 "0603" H 7450 -1850 50  0001 C CNN "Package"
-	1    8750 4200
+F 0 "R208" V 9200 4100 50  0000 C CNN
+F 1 "150" V 9200 4300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9230 4200 50  0001 C CNN
+F 3 "~" H 9300 4200 50  0001 C CNN
+F 4 "0603" H 8000 -1850 50  0001 C CNN "Package"
+	1    9300 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5DEB7927
-P 6700 4750
+P 7250 4750
 AR Path="/5DEB7927" Ref="C?"  Part="1" 
 AR Path="/5DA95EB0/5DEB7927" Ref="C?"  Part="1" 
 AR Path="/5DC297AB/5DEB7927" Ref="C205"  Part="1" 
-F 0 "C205" H 6815 4796 50  0000 L CNN
-F 1 "1uF" H 6815 4705 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6738 4600 50  0001 C CNN
-F 3 "~" H 6700 4750 50  0001 C CNN
-F 4 "0603" H 6600 4850 50  0000 L TNN "Package"
-F 5 "CAP CER 1UF 25V X5R 0603" H 6700 4750 50  0001 C CNN "Description"
-F 6 "25V" H 6700 4700 50  0000 R TNN "Voltage Rating"
-F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 6700 4750 50  0001 C CNN "Link"
-F 8 "Digi-Key" H 6700 4750 50  0001 C CNN "Supplier 1"
-F 9 "311-1445-1-ND" H 6700 4750 50  0001 C CNN "Supplier Part Number 1"
-F 10 "0.15000" H 6700 4750 50  0001 C CNN "Unit Cost A$"
-	1    6700 4750
+F 0 "C205" H 7365 4796 50  0000 L CNN
+F 1 "1uF" H 7365 4705 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7288 4600 50  0001 C CNN
+F 3 "~" H 7250 4750 50  0001 C CNN
+F 4 "0603" H 7150 4850 50  0000 L TNN "Package"
+F 5 "CAP CER 1UF 25V X5R 0603" H 7250 4750 50  0001 C CNN "Description"
+F 6 "25V" H 7250 4700 50  0000 R TNN "Voltage Rating"
+F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 7250 4750 50  0001 C CNN "Link"
+F 8 "Digi-Key" H 7250 4750 50  0001 C CNN "Supplier 1"
+F 9 "311-1445-1-ND" H 7250 4750 50  0001 C CNN "Supplier Part Number 1"
+F 10 "0.15000" H 7250 4750 50  0001 C CNN "Unit Cost A$"
+	1    7250 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5DEB7D1E
-P 6700 4350
+P 7250 4350
 AR Path="/5DEB7D1E" Ref="C?"  Part="1" 
 AR Path="/5DA95EB0/5DEB7D1E" Ref="C?"  Part="1" 
 AR Path="/5DC297AB/5DEB7D1E" Ref="C204"  Part="1" 
-F 0 "C204" H 6815 4396 50  0000 L CNN
-F 1 "1uF" H 6815 4305 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6738 4200 50  0001 C CNN
-F 3 "~" H 6700 4350 50  0001 C CNN
-F 4 "0603" H 6600 4450 50  0000 L TNN "Package"
-F 5 "CAP CER 1UF 25V X5R 0603" H 6700 4350 50  0001 C CNN "Description"
-F 6 "25V" H 6700 4300 50  0000 R TNN "Voltage Rating"
-F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 6700 4350 50  0001 C CNN "Link"
-F 8 "Digi-Key" H 6700 4350 50  0001 C CNN "Supplier 1"
-F 9 "311-1445-1-ND" H 6700 4350 50  0001 C CNN "Supplier Part Number 1"
-F 10 "0.15000" H 6700 4350 50  0001 C CNN "Unit Cost A$"
-	1    6700 4350
+F 0 "C204" H 7365 4396 50  0000 L CNN
+F 1 "1uF" H 7365 4305 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7288 4200 50  0001 C CNN
+F 3 "~" H 7250 4350 50  0001 C CNN
+F 4 "0603" H 7150 4450 50  0000 L TNN "Package"
+F 5 "CAP CER 1UF 25V X5R 0603" H 7250 4350 50  0001 C CNN "Description"
+F 6 "25V" H 7250 4300 50  0000 R TNN "Voltage Rating"
+F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 7250 4350 50  0001 C CNN "Link"
+F 8 "Digi-Key" H 7250 4350 50  0001 C CNN "Supplier 1"
+F 9 "311-1445-1-ND" H 7250 4350 50  0001 C CNN "Supplier Part Number 1"
+F 10 "0.15000" H 7250 4350 50  0001 C CNN "Unit Cost A$"
+	1    7250 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5DEB7E1B
-P 8750 4650
+P 9300 4650
 AR Path="/5DEB7E1B" Ref="C?"  Part="1" 
 AR Path="/5DA95EB0/5DEB7E1B" Ref="C?"  Part="1" 
 AR Path="/5DC297AB/5DEB7E1B" Ref="C207"  Part="1" 
-F 0 "C207" H 8865 4696 50  0000 L CNN
-F 1 "1uF" H 8865 4605 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8788 4500 50  0001 C CNN
-F 3 "~" H 8750 4650 50  0001 C CNN
-F 4 "0603" H 8650 4750 50  0000 L TNN "Package"
-F 5 "CAP CER 1UF 25V X5R 0603" H 8750 4650 50  0001 C CNN "Description"
-F 6 "25V" H 8750 4600 50  0000 R TNN "Voltage Rating"
-F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 8750 4650 50  0001 C CNN "Link"
-F 8 "Digi-Key" H 8750 4650 50  0001 C CNN "Supplier 1"
-F 9 "311-1445-1-ND" H 8750 4650 50  0001 C CNN "Supplier Part Number 1"
-F 10 "0.15000" H 8750 4650 50  0001 C CNN "Unit Cost A$"
-	1    8750 4650
+F 0 "C207" H 9415 4696 50  0000 L CNN
+F 1 "1uF" H 9415 4605 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9338 4500 50  0001 C CNN
+F 3 "~" H 9300 4650 50  0001 C CNN
+F 4 "0603" H 9200 4750 50  0000 L TNN "Package"
+F 5 "CAP CER 1UF 25V X5R 0603" H 9300 4650 50  0001 C CNN "Description"
+F 6 "25V" H 9300 4600 50  0000 R TNN "Voltage Rating"
+F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 9300 4650 50  0001 C CNN "Link"
+F 8 "Digi-Key" H 9300 4650 50  0001 C CNN "Supplier 1"
+F 9 "311-1445-1-ND" H 9300 4650 50  0001 C CNN "Supplier Part Number 1"
+F 10 "0.15000" H 9300 4650 50  0001 C CNN "Unit Cost A$"
+	1    9300 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 4400 8750 4400
+	9000 4400 9300 4400
 Wire Wire Line
-	8750 4400 8750 4500
-Text Notes 3750 5650 0    50   ~ 0
+	9300 4400 9300 4500
+Text Notes 3650 5700 0    50   ~ 0
 PACK- = GND
-Text Notes 3650 4450 0    50   ~ 0
-PACK+ = Batt+
+Text Notes 3650 4500 0    50   ~ 0
+PACK+ = LiBatt+
 $Comp
 L Device:R R?
 U 1 1 5DEC307F
-P 6350 4550
+P 6900 4550
 AR Path="/5DEC307F" Ref="R?"  Part="1" 
 AR Path="/5DC297AB/5DEC307F" Ref="R205"  Part="1" 
-F 0 "R205" V 6250 4450 50  0000 C CNN
-F 1 "240" V 6250 4650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6280 4550 50  0001 C CNN
-F 3 "~" H 6350 4550 50  0001 C CNN
-F 4 "0603" H 5050 -1500 50  0001 C CNN "Package"
-	1    6350 4550
+F 0 "R205" V 6800 4450 50  0000 C CNN
+F 1 "240" V 6800 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6830 4550 50  0001 C CNN
+F 3 "~" H 6900 4550 50  0001 C CNN
+F 4 "0603" H 5600 -1500 50  0001 C CNN "Package"
+	1    6900 4550
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5DEC3348
-P 6350 5100
+P 6900 5100
 AR Path="/5DEC3348" Ref="R?"  Part="1" 
 AR Path="/5DC297AB/5DEC3348" Ref="R206"  Part="1" 
-F 0 "R206" V 6250 5000 50  0000 C CNN
-F 1 "150" V 6250 5200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6280 5100 50  0001 C CNN
-F 3 "~" H 6350 5100 50  0001 C CNN
-F 4 "0603" H 5050 -950 50  0001 C CNN "Package"
-	1    6350 5100
+F 0 "R206" V 6800 5000 50  0000 C CNN
+F 1 "150" V 6800 5200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6830 5100 50  0001 C CNN
+F 3 "~" H 6900 5100 50  0001 C CNN
+F 4 "0603" H 5600 -950 50  0001 C CNN "Package"
+	1    6900 5100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6850 4550 6700 4550
+	7400 4550 7250 4550
 Wire Wire Line
-	6700 4550 6700 4500
+	7250 4550 7250 4500
 Wire Wire Line
-	6700 4550 6700 4600
-Connection ~ 6700 4550
+	7250 4550 7250 4600
+Connection ~ 7250 4550
 Wire Wire Line
-	6850 4150 6700 4150
+	7400 4150 7250 4150
 Wire Wire Line
-	6700 4150 6700 4200
+	7250 4150 7250 4200
 Wire Wire Line
-	6700 3700 6700 3750
+	7250 3700 7250 3750
 $Comp
 L Device:R R?
 U 1 1 5DEC1918
-P 6700 3900
+P 7250 3900
 AR Path="/5DEC1918" Ref="R?"  Part="1" 
 AR Path="/5DC297AB/5DEC1918" Ref="R207"  Part="1" 
-F 0 "R207" V 6600 3800 50  0000 C CNN
-F 1 "150" V 6600 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6630 3900 50  0001 C CNN
-F 3 "~" H 6700 3900 50  0001 C CNN
-F 4 "0603" H 5400 -2150 50  0001 C CNN "Package"
-	1    6700 3900
+F 0 "R207" V 7150 3800 50  0000 C CNN
+F 1 "150" V 7150 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7180 3900 50  0001 C CNN
+F 3 "~" H 7250 3900 50  0001 C CNN
+F 4 "0603" H 5950 -2150 50  0001 C CNN "Package"
+	1    7250 3900
 	-1   0    0    1   
 $EndComp
-Text Label 6700 3700 0    50   ~ 0
+Text Label 7250 3700 0    50   ~ 0
 VC2
 $Comp
 L Device:C C?
 U 1 1 5DED63F8
-P 6700 5500
+P 7250 5500
 AR Path="/5DED63F8" Ref="C?"  Part="1" 
 AR Path="/5DA95EB0/5DED63F8" Ref="C?"  Part="1" 
 AR Path="/5DC297AB/5DED63F8" Ref="C206"  Part="1" 
-F 0 "C206" H 6815 5546 50  0000 L CNN
-F 1 "1uF" H 6815 5455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6738 5350 50  0001 C CNN
-F 3 "~" H 6700 5500 50  0001 C CNN
-F 4 "0603" H 6600 5600 50  0000 L TNN "Package"
-F 5 "CAP CER 1UF 25V X5R 0603" H 6700 5500 50  0001 C CNN "Description"
-F 6 "25V" H 6700 5450 50  0000 R TNN "Voltage Rating"
-F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 6700 5500 50  0001 C CNN "Link"
-F 8 "Digi-Key" H 6700 5500 50  0001 C CNN "Supplier 1"
-F 9 "311-1445-1-ND" H 6700 5500 50  0001 C CNN "Supplier Part Number 1"
-F 10 "0.15000" H 6700 5500 50  0001 C CNN "Unit Cost A$"
-	1    6700 5500
+F 0 "C206" H 7365 5546 50  0000 L CNN
+F 1 "1uF" H 7365 5455 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7288 5350 50  0001 C CNN
+F 3 "~" H 7250 5500 50  0001 C CNN
+F 4 "0603" H 7150 5600 50  0000 L TNN "Package"
+F 5 "CAP CER 1UF 25V X5R 0603" H 7250 5500 50  0001 C CNN "Description"
+F 6 "25V" H 7250 5450 50  0000 R TNN "Voltage Rating"
+F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 7250 5500 50  0001 C CNN "Link"
+F 8 "Digi-Key" H 7250 5500 50  0001 C CNN "Supplier 1"
+F 9 "311-1445-1-ND" H 7250 5500 50  0001 C CNN "Supplier Part Number 1"
+F 10 "0.15000" H 7250 5500 50  0001 C CNN "Unit Cost A$"
+	1    7250 5500
 	1    0    0    -1  
 $EndComp
-Text Label 2000 5650 0    50   ~ 0
-Batt-
-Text Label 6700 5850 0    50   ~ 0
+Text Label 1900 5700 0    50   ~ 0
+LiBatt-
+Text Label 7250 5850 0    50   ~ 0
 VC0
-Text Label 6100 4850 0    50   ~ 0
+Text Label 6650 4850 0    50   ~ 0
 VC1
 $Comp
 L dingo-hat:BQ29209DRBR U203
 U 1 1 5DEDCDDA
-P 7650 4700
-F 0 "U203" H 7650 5537 60  0000 C CNN
-F 1 "BQ29209DRBR" H 7650 5431 60  0000 C CNN
-F 2 "DRB8_1P6X2P4" H 7650 4700 60  0001 C CNN
-F 3 "" H 6850 5100 60  0000 C CNN
-	1    7650 4700
+P 8200 4700
+F 0 "U203" H 8200 5537 60  0000 C CNN
+F 1 "BQ29209DRBR" H 8200 5431 60  0000 C CNN
+F 2 "DRB8_1P6X2P4" H 8200 4700 60  0001 C CNN
+F 3 "" H 7400 5100 60  0000 C CNN
+	1    8200 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 4900 6700 4950
+	7250 4900 7250 4950
 Wire Wire Line
-	6850 5250 6700 5250
+	7400 5250 7250 5250
 Wire Wire Line
-	6700 5250 6700 5350
+	7250 5250 7250 5350
 Wire Wire Line
-	6850 5100 6500 5100
+	7400 5100 7050 5100
 Wire Wire Line
-	6200 5100 6100 5100
+	6750 5100 6650 5100
 Wire Wire Line
-	6100 4550 6200 4550
+	6650 4550 6750 4550
 Wire Wire Line
-	6500 4550 6700 4550
+	7050 4550 7250 4550
 Wire Wire Line
-	6700 4050 6700 4150
+	7250 4050 7250 4150
 Wire Wire Line
-	6100 4550 6100 5100
-Connection ~ 6700 4150
+	6650 4550 6650 5100
+Connection ~ 7250 4150
 Text Label 4250 2800 0    50   ~ 0
-Batt+
-Text Label 3350 4300 0    50   ~ 0
-Batt+
+LiBatt+
+Text Label 3250 4350 0    50   ~ 0
+LiBatt+
 Wire Wire Line
-	8750 4800 8750 4950
+	9300 4800 9300 4950
 Wire Wire Line
-	8450 5250 8750 5250
-Connection ~ 8750 5250
+	9000 5250 9300 5250
+Connection ~ 9300 5250
 Wire Wire Line
-	8450 5100 8750 5100
-Connection ~ 8750 5100
+	9000 5100 9300 5100
+Connection ~ 9300 5100
 Wire Wire Line
-	8750 5100 8750 5250
+	9300 5100 9300 5250
 Wire Wire Line
-	8450 4950 8750 4950
-Connection ~ 8750 4950
+	9000 4950 9300 4950
+Connection ~ 9300 4950
 Wire Wire Line
-	8750 4950 8750 5100
+	9300 4950 9300 5100
 Wire Wire Line
-	6700 5850 8750 5850
+	7250 5850 9300 5850
 Wire Wire Line
-	6700 5650 6700 5850
+	7250 5650 7250 5850
 Wire Wire Line
-	8750 5250 8750 5850
+	9300 5250 9300 5850
 Wire Wire Line
-	8750 4400 8750 4350
-Connection ~ 8750 4400
+	9300 4400 9300 4350
+Connection ~ 9300 4400
 Wire Wire Line
-	6700 3700 8750 3700
+	7250 3700 9300 3700
 Wire Wire Line
-	8750 3700 8750 4050
-Text Notes 7550 4300 0    50   ~ 0
+	9300 3700 9300 4050
+Text Notes 8100 4300 0    50   ~ 0
 Out could be run to FET to PROG of MCP73213 to enable/disable charging.
-Text Notes 6700 3500 0    50   ~ 0
+Text Notes 7250 3500 0    50   ~ 0
 Balance
 Text Notes 1950 2200 0    50   ~ 0
 Charge
@@ -598,8 +596,6 @@ Wire Notes Line
 	1600 6300 1600 4200
 Wire Notes Line
 	1600 4200 5750 4200
-Wire Notes Line
-	6000 3350 6000 6300
 Wire Notes Line
 	6000 6300 10500 6300
 Wire Notes Line
@@ -620,33 +616,55 @@ Wire Notes Line
 	9650 4200 9650 2350
 Wire Notes Line
 	9650 2350 5750 2350
-Text Label 1900 6100 0    50   ~ 0
+Text Label 2200 6150 0    50   ~ 0
 VC0
 $Comp
 L Device:C C?
 U 1 1 5DC6B2DE
-P 1900 5900
+P 2200 5950
 AR Path="/5DC6B2DE" Ref="C?"  Part="1" 
 AR Path="/5DA95EB0/5DC6B2DE" Ref="C?"  Part="1" 
 AR Path="/5DC297AB/5DC6B2DE" Ref="C?"  Part="1" 
-F 0 "C?" H 2015 5946 50  0000 L CNN
-F 1 "1uF" H 2015 5855 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1938 5750 50  0001 C CNN
-F 3 "~" H 1900 5900 50  0001 C CNN
-F 4 "0603" H 1800 6000 50  0000 L TNN "Package"
-F 5 "CAP CER 1UF 25V X5R 0603" H 1900 5900 50  0001 C CNN "Description"
-F 6 "25V" H 1900 5850 50  0000 R TNN "Voltage Rating"
-F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 1900 5900 50  0001 C CNN "Link"
-F 8 "Digi-Key" H 1900 5900 50  0001 C CNN "Supplier 1"
-F 9 "311-1445-1-ND" H 1900 5900 50  0001 C CNN "Supplier Part Number 1"
-F 10 "0.15000" H 1900 5900 50  0001 C CNN "Unit Cost A$"
-	1    1900 5900
+F 0 "C?" H 2315 5996 50  0000 L CNN
+F 1 "1uF" H 2315 5905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2238 5800 50  0001 C CNN
+F 3 "~" H 2200 5950 50  0001 C CNN
+F 4 "0603" H 2100 6050 50  0000 L TNN "Package"
+F 5 "CAP CER 1UF 25V X5R 0603" H 2200 5950 50  0001 C CNN "Description"
+F 6 "25V" H 2200 5900 50  0000 R TNN "Voltage Rating"
+F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0603KRX5R8BB105/311-1445-1-ND/2833751" H 2200 5950 50  0001 C CNN "Link"
+F 8 "Digi-Key" H 2200 5950 50  0001 C CNN "Supplier 1"
+F 9 "311-1445-1-ND" H 2200 5950 50  0001 C CNN "Supplier Part Number 1"
+F 10 "0.15000" H 2200 5950 50  0001 C CNN "Unit Cost A$"
+	1    2200 5950
 	1    0    0    -1  
 $EndComp
-Text Label 6700 4950 0    50   ~ 0
+Text Label 7250 4950 0    50   ~ 0
 VC0
-Text Label 3650 4950 0    50   ~ 0
+Text Label 3550 5000 0    50   ~ 0
 VC1
-Text Notes 250  5050 0    118  ~ 24
-Does this protection really do what I want when there's a separate balance and power plug?
+Text Notes 1600 6400 0    49   ~ 10
+Does this protection really do what I want when there's a separate balance and power plug? I think so..
+Connection ~ 1950 2800
+Wire Wire Line
+	1650 2800 1950 2800
+Wire Wire Line
+	2200 6100 2200 6150
+Wire Wire Line
+	2200 5800 2200 5700
+Text HLabel 7250 3700 0    50   UnSpc ~ 0
+VC2
+Text HLabel 6650 4850 0    50   UnSpc ~ 0
+VC1
+Wire Notes Line
+	6000 3350 6000 6300
+Text HLabel 7250 5850 0    50   UnSpc ~ 0
+VC0
+Wire Wire Line
+	1800 5700 1600 5700
+Connection ~ 1800 5700
+Wire Wire Line
+	1600 4350 1800 4350
+Connection ~ 1800 4350
+NoConn ~ 9000 4200
 $EndSCHEMATC
