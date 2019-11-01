@@ -1228,13 +1228,6 @@ F 10 "0.15000" H 9050 1750 50  0001 C CNN "Unit Cost A$"
 	1    9050 1750
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 5150 4300 950  1050
-U 5DA95EB0
-F0 "Power" 50
-F1 "Power.sch" 50
-F2 "BatterySupply" I L 5150 4600 50 
-$EndSheet
 Wire Notes Line
 	7050 4000 7050 2400
 $Sheet
@@ -1882,4 +1875,11 @@ F 3 "" H 550 7350 50  0001 C CNN
 	1    550  7350
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 5150 4300 950  1050
+U 5DA95EB0
+F0 "Power" 50
+F1 "Power.sch" 50
+F2 "BatterySupply" I L 5150 4600 50 
+$EndSheet
 $EndSCHEMATC
