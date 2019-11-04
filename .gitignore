@@ -49,7 +49,6 @@ $RECYCLE.BIN/
 
 *.skp
 *.dxf
-gerber*
 *.zip
 *.xls
 *.xlsx
