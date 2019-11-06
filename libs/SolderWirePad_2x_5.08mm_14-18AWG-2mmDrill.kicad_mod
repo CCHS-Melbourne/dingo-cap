@@ -1,10 +1,12 @@
-(module libs:SolderWirePad_2x_5.08mm_14-18AWG-2mmDrill (layer F.Cu) (tedit 5DC296C1)
+(module libs:SolderWirePad_2x_5.08mm_14-18AWG-2mmDrill (layer F.Cu) (tedit 5DC29E0A)
   (fp_text reference J11 (at -3 -4.75) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Bypass-Power (at -5.814 -0.056 90) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
+  (fp_line (start -5.08 -4) (end 5.08 -4) (layer F.CrtYd) (width 0.12))
+  (fp_line (start -5.08 -4) (end -5.08 5.08) (layer B.CrtYd) (width 0.12))
   (fp_line (start 5.08 3.81) (end 5.08 -4) (layer F.SilkS) (width 0.15))
   (fp_line (start 5.08 -4) (end -5.08 -4) (layer F.SilkS) (width 0.15))
   (fp_line (start -5.08 -4) (end -5.08 3.81) (layer F.SilkS) (width 0.15))
