@@ -697,7 +697,7 @@ F 1 "NEOPIXEL" H 3080 7101 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3000 7150 50  0001 C CNN
 F 3 "~" H 3000 7150 50  0001 C CNN
 	1    3000 7150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR0136
@@ -1408,7 +1408,7 @@ U 1 1 5DB725E6
 P 6200 2950
 F 0 "J13" H 6200 3150 50  0000 C CNN
 F 1 "i2c_display" H 6200 2650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 6200 2950 50  0001 C CNN
+F 2 "libs:0.91 OLED" H 6200 2950 50  0001 C CNN
 F 3 "~" H 6200 2950 50  0001 C CNN
 F 4 "https://tronixlabs.com.au/sensors/distance/ultrasonic/ultrasonic-distance-sensor-module-hc-sr04-2-450-cm-australia/" H 6200 2950 50  0001 C CNN "Link"
 	1    6200 2950
@@ -1770,8 +1770,8 @@ L dingo-hat:PJ-037B J10
 U 1 1 5E240E50
 P 950 5400
 F 0 "J10" H 945 5740 50  0000 C CNN
-F 1 "PJ-037B" H 700 5600 50  0000 C CNN
-F 2 "libs:CUI_PJ-037B" H 950 5400 50  0001 L BNN
+F 1 "PJ-038BH" H 700 5600 50  0000 C CNN
+F 2 "libs:CUI_PJ-038BH" H 950 5400 50  0001 L BNN
 F 3 "https://www.cuidevices.com/product/resource/digikeypdf/pj-037b.pdf" H 950 5400 50  0001 L BNN
 F 4 "2.5A" H 950 5400 50  0001 C CNN "DCR"
 F 5 "CONN PWR JACK 2.5X5.5MM SOLDER" H 950 5400 50  0001 C CNN "Description"
@@ -1874,6 +1874,28 @@ F 8 "Digi-Key" H 1650 7100 50  0001 C CNN "Supplier 1"
 F 9 "1276-1000-1-ND" H 1650 7100 50  0001 C CNN "Supplier Part Number 1"
 F 10 "0.15000" H 1650 7100 50  0001 C CNN "Unit Cost A$"
 	1    1650 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dingo-hat-graphics:LCA2020Logo G4
+U 1 1 5DDBC2A1
+P 550 7500
+F 0 "G4" H 628 7500 50  0001 L CNN
+F 1 "LCA2020Logo.3" H 628 7500 50  0000 L CNN
+F 2 "libs:logo-2020.silk" H 550 7500 50  0001 C CNN
+F 3 "" H 550 7500 50  0001 C CNN
+	1    550  7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L dingo-hat-graphics:LCA2020Logo G5
+U 1 1 5DDBC2AB
+P 550 7650
+F 0 "G5" H 628 7650 50  0001 L CNN
+F 1 "LCA2020Logo.4" H 628 7650 50  0000 L CNN
+F 2 "libs:logo-2020.mask" H 550 7650 50  0001 C CNN
+F 3 "" H 550 7650 50  0001 C CNN
+	1    550  7650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
