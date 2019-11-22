@@ -880,14 +880,14 @@ Accelerometer
 $Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 5C1BDC5B
-P 7300 4350
-F 0 "J4" H 7220 4667 50  0000 C CNN
-F 1 "ULTRA_1" H 7220 4576 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7300 4350 50  0001 C CNN
-F 3 "~" H 7300 4350 50  0001 C CNN
-F 4 "https://tronixlabs.com.au/sensors/distance/ultrasonic/ultrasonic-distance-sensor-module-hc-sr04-2-450-cm-australia/" H 7300 4350 50  0001 C CNN "Link"
-	1    7300 4350
-	-1   0    0    -1  
+P 7300 4450
+F 0 "J4" H 7400 4250 50  0000 C CNN
+F 1 "ULTRA_1" H 7350 4150 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7300 4450 50  0001 C CNN
+F 3 "~" H 7300 4450 50  0001 C CNN
+F 4 "https://tronixlabs.com.au/sensors/distance/ultrasonic/ultrasonic-distance-sensor-module-hc-sr04-2-450-cm-australia/" H 7300 4450 50  0001 C CNN "Link"
+	1    7300 4450
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0116
@@ -926,14 +926,14 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5C210D5B
-P 7300 2850
-F 0 "J3" H 7220 3167 50  0000 C CNN
-F 1 "ULTRA_0" H 7220 3076 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7300 2850 50  0001 C CNN
-F 3 "~" H 7300 2850 50  0001 C CNN
-F 4 "https://tronixlabs.com.au/sensors/distance/ultrasonic/ultrasonic-distance-sensor-module-hc-sr04-2-450-cm-australia/" H 7300 2850 50  0001 C CNN "Link"
-	1    7300 2850
-	-1   0    0    -1  
+P 7300 2950
+F 0 "J3" H 7400 2700 50  0000 C CNN
+F 1 "ULTRA_0" H 7350 2600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7300 2950 50  0001 C CNN
+F 3 "~" H 7300 2950 50  0001 C CNN
+F 4 "https://tronixlabs.com.au/sensors/distance/ultrasonic/ultrasonic-distance-sensor-module-hc-sr04-2-450-cm-australia/" H 7300 2950 50  0001 C CNN "Link"
+	1    7300 2950
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0118
@@ -1896,6 +1896,36 @@ F 1 "LCA2020Logo.4" H 628 7650 50  0000 L CNN
 F 2 "libs:logo-2020.mask" H 550 7650 50  0001 C CNN
 F 3 "" H 550 7650 50  0001 C CNN
 	1    550  7650
+	1    0    0    -1  
+$EndComp
+Text Label 7100 5950 0    50   ~ 0
+GPIO13
+$Comp
+L power:GND #PWR0114
+U 1 1 5DDE8A36
+P 7900 6050
+F 0 "#PWR0114" H 7900 5800 50  0001 C CNN
+F 1 "GND" H 7905 5877 50  0000 C CNN
+F 2 "" H 7900 6050 50  0001 C CNN
+F 3 "" H 7900 6050 50  0001 C CNN
+	1    7900 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 5950 7900 5950
+Wire Wire Line
+	7900 5950 7900 6050
+Wire Wire Line
+	7400 5950 7100 5950
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5DDE62F1
+P 7600 5950
+F 0 "SW1" H 7600 6235 50  0000 C CNN
+F 1 "GPIO13" H 7600 6144 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 7600 6150 50  0001 C CNN
+F 3 "~" H 7600 6150 50  0001 C CNN
+	1    7600 5950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
