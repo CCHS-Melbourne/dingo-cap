@@ -1550,17 +1550,6 @@ F 10 "8A" V 1300 5400 50  0000 C CNN "DCR"
 	1    1350 5300
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 5DC92C98
-P 1200 5550
-F 0 "#PWR01" H 1200 5300 50  0001 C CNN
-F 1 "GND" H 1205 5377 50  0000 C CNN
-F 2 "" H 1200 5550 50  0001 C CNN
-F 3 "" H 1200 5550 50  0001 C CNN
-	1    1200 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3750 4600 3800 4600
 $Comp
@@ -1770,17 +1759,17 @@ L dingo-hat:PJ-037B J10
 U 1 1 5E240E50
 P 950 5400
 F 0 "J10" H 945 5740 50  0000 C CNN
-F 1 "PJ-038BH" H 700 5600 50  0000 C CNN
-F 2 "libs:CUI_PJ-038BH" H 950 5400 50  0001 L BNN
-F 3 "https://www.cuidevices.com/product/resource/digikeypdf/pj-037b.pdf" H 950 5400 50  0001 L BNN
+F 1 "PJ-038AH" H 700 5600 50  0000 C CNN
+F 2 "libs:CUI_PJ-038AH" H 950 5400 50  0001 L BNN
+F 3 "https://www.cuidevices.com/product/resource/pj-038ah.pdf" H 950 5400 50  0001 L BNN
 F 4 "2.5A" H 950 5400 50  0001 C CNN "DCR"
-F 5 "CONN PWR JACK 2.5X5.5MM SOLDER" H 950 5400 50  0001 C CNN "Description"
-F 6 "https://www.digikey.com.au/product-detail/en/cui-devices/PJ-037B/CP-037B-ND/1644546" H 950 5400 50  0001 C CNN "Link"
+F 5 "Power Barrel Connector Jack 2.10mm ID (0.083\"), 5.50mm OD (0.217\") Panel Mount" H 950 5400 50  0001 C CNN "Description"
+F 6 "https://www.digikey.com.au/product-detail/en/cui-devices/PJ-038AH/CP-038AH-ND/1644551" H 950 5400 50  0001 C CNN "Link"
 F 7 "CUI" H 950 5400 50  0001 C CNN "Manufacturer"
-F 8 "PJ-037B" H 950 5400 50  0001 C CNN "Mfg Part #"
+F 8 "PJ-038AH" H 950 5400 50  0001 C CNN "Mfg Part #"
 F 9 "Digi-Key" H 950 5400 50  0001 C CNN "Supplier 1"
-F 10 "CP-037B-ND" H 950 5400 50  0001 C CNN "Supplier Part Number 1"
-F 11 "0.89000" H 950 5400 50  0001 C CNN "Unit Cost A$"
+F 10 "CP-038AH-ND" H 950 5400 50  0001 C CNN "Supplier Part Number 1"
+F 11 "1.12000" H 950 5400 50  0001 C CNN "Unit Cost A$"
 	1    950  5400
 	1    0    0    -1  
 $EndComp
@@ -1926,6 +1915,17 @@ F 1 "GPIO13" H 7600 6144 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm" H 7600 6150 50  0001 C CNN
 F 3 "~" H 7600 6150 50  0001 C CNN
 	1    7600 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5DC92C98
+P 1200 5550
+F 0 "#PWR01" H 1200 5300 50  0001 C CNN
+F 1 "GND" H 1205 5377 50  0000 C CNN
+F 2 "" H 1200 5550 50  0001 C CNN
+F 3 "" H 1200 5550 50  0001 C CNN
+	1    1200 5550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
