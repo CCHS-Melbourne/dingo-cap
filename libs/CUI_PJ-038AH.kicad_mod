@@ -1,4 +1,4 @@
-(module CUI_PJ-038AH (layer F.Cu) (tedit 5DE4CBC5)
+(module CUI_PJ-038AH (layer F.Cu) (tedit 5DE88836)
   (fp_text reference CUI_PJ-038AH (at -0.71461 -11.4936) (layer F.SilkS)
     (effects (font (size 1.0012 1.0012) (thickness 0.05)))
   )
@@ -49,4 +49,9 @@
   (pad 3 thru_hole oval (at 1.4 1.75 180) (size 4.4 2.2) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at -1.5 4.55 180) (size 4.4 2.2) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole oval (at -4.9 -1.25 90) (size 4.4 2.2) (drill 1) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/Models/Barrel.Jack.Vertical.CUI_DEVICES_PJ-038AH.step
+    (offset (xyz 0 1.25 4.8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

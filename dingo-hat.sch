@@ -1410,7 +1410,7 @@ F 0 "J13" H 6200 3150 50  0000 C CNN
 F 1 "i2c_display" H 6200 2650 50  0000 C CNN
 F 2 "libs:0.91 OLED" H 6200 2950 50  0001 C CNN
 F 3 "~" H 6200 2950 50  0001 C CNN
-F 4 "https://tronixlabs.com.au/sensors/distance/ultrasonic/ultrasonic-distance-sensor-module-hc-sr04-2-450-cm-australia/" H 6200 2950 50  0001 C CNN "Link"
+F 4 "" H 6200 2950 50  0001 C CNN "Link"
 	1    6200 2950
 	-1   0    0    1   
 $EndComp
@@ -1928,4 +1928,54 @@ F 3 "" H 1200 5550 50  0001 C CNN
 	1    1200 5550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J16
+U 1 1 5DEBABC5
+P 6200 3750
+F 0 "J16" H 6200 3950 50  0000 C CNN
+F 1 "i2c_display_1" H 6200 3450 50  0000 C CNN
+F 2 "libs:0.91 OLED" H 6200 3750 50  0001 C CNN
+F 3 "~" H 6200 3750 50  0001 C CNN
+F 4 "" H 6200 3750 50  0001 C CNN "Link"
+	1    6200 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5DEBABCB
+P 6500 3950
+F 0 "#PWR011" H 6500 3700 50  0001 C CNN
+F 1 "GND" H 6505 3777 50  0000 C CNN
+F 2 "" H 6500 3950 50  0001 C CNN
+F 3 "" H 6500 3950 50  0001 C CNN
+	1    6500 3950
+	1    0    0    -1  
+$EndComp
+Text Label 6750 3550 2    50   ~ 0
+SDA_3.3
+Text Label 6750 3650 2    50   ~ 0
+SCL_3.3
+$Comp
+L power:+5V #PWR012
+U 1 1 5DEBABD3
+P 6900 3650
+F 0 "#PWR012" H 6900 3500 50  0001 C CNN
+F 1 "+5V" H 6915 3823 50  0000 C CNN
+F 2 "" H 6900 3650 50  0001 C CNN
+F 3 "" H 6900 3650 50  0001 C CNN
+	1    6900 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3650 6900 3750
+Wire Wire Line
+	6900 3750 6400 3750
+Wire Wire Line
+	6400 3850 6500 3850
+Wire Wire Line
+	6500 3850 6500 3950
+Wire Wire Line
+	6750 3650 6400 3650
+Wire Wire Line
+	6750 3550 6400 3550
 $EndSCHEMATC
