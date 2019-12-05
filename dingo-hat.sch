@@ -752,8 +752,8 @@ L Connector:Conn_01x01_Female J24
 U 1 1 5C13B069
 P 750 6250
 F 0 "J24" H 777 6276 50  0000 L CNN
-F 1 "3mm_Mount" H 777 6185 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 750 6250 50  0001 C CNN
+F 1 "M2.5_Mount" H 777 6185 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 750 6250 50  0001 C CNN
 F 3 "~" H 750 6250 50  0001 C CNN
 	1    750  6250
 	1    0    0    -1  
@@ -764,8 +764,8 @@ L Connector:Conn_01x01_Female J25
 U 1 1 5C161F7A
 P 750 6400
 F 0 "J25" H 777 6426 50  0000 L CNN
-F 1 "3mm_Mount" H 777 6335 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 750 6400 50  0001 C CNN
+F 1 "M2.5_Mount" H 777 6335 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 750 6400 50  0001 C CNN
 F 3 "~" H 750 6400 50  0001 C CNN
 	1    750  6400
 	1    0    0    -1  
@@ -776,8 +776,8 @@ L Connector:Conn_01x01_Female J26
 U 1 1 5C188C93
 P 750 6550
 F 0 "J26" H 777 6576 50  0000 L CNN
-F 1 "3mm_Mount" H 777 6485 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 750 6550 50  0001 C CNN
+F 1 "M2.5_Mount" H 777 6485 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 750 6550 50  0001 C CNN
 F 3 "~" H 750 6550 50  0001 C CNN
 	1    750  6550
 	1    0    0    -1  
@@ -788,8 +788,8 @@ L Connector:Conn_01x01_Female J27
 U 1 1 5C188C9A
 P 750 6700
 F 0 "J27" H 777 6726 50  0000 L CNN
-F 1 "3mm_Mount" H 777 6635 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 750 6700 50  0001 C CNN
+F 1 "M2.5_Mount" H 777 6635 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 750 6700 50  0001 C CNN
 F 3 "~" H 750 6700 50  0001 C CNN
 	1    750  6700
 	1    0    0    -1  
