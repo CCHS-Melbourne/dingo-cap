@@ -883,7 +883,7 @@ U 1 1 5C1BDC5B
 P 7300 4450
 F 0 "J4" H 7400 4250 50  0000 C CNN
 F 1 "ULTRA_1" H 7350 4150 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7300 4450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 7300 4450 50  0001 C CNN
 F 3 "~" H 7300 4450 50  0001 C CNN
 F 4 "https://tronixlabs.com.au/sensors/distance/ultrasonic/ultrasonic-distance-sensor-module-hc-sr04-2-450-cm-australia/" H 7300 4450 50  0001 C CNN "Link"
 	1    7300 4450
@@ -929,7 +929,7 @@ U 1 1 5C210D5B
 P 7300 2950
 F 0 "J3" H 7400 2700 50  0000 C CNN
 F 1 "ULTRA_0" H 7350 2600 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7300 2950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 7300 2950 50  0001 C CNN
 F 3 "~" H 7300 2950 50  0001 C CNN
 F 4 "https://tronixlabs.com.au/sensors/distance/ultrasonic/ultrasonic-distance-sensor-module-hc-sr04-2-450-cm-australia/" H 7300 2950 50  0001 C CNN "Link"
 	1    7300 2950
@@ -983,7 +983,7 @@ U 1 1 5C2A45E2
 P 7800 3100
 F 0 "R3" H 7730 3146 50  0000 R CNN
 F 1 "330" H 7730 3055 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7730 3100 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7730 3100 50  0001 C CNN
 F 3 "~" H 7800 3100 50  0001 C CNN
 F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    7800 3100
@@ -995,7 +995,7 @@ U 1 1 5C2A466A
 P 7800 3500
 F 0 "R4" H 7870 3546 50  0000 L CNN
 F 1 "470" H 7870 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7730 3500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7730 3500 50  0001 C CNN
 F 3 "~" H 7800 3500 50  0001 C CNN
 F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    7800 3500
@@ -1027,7 +1027,7 @@ U 1 1 5C38BAD6
 P 7800 4600
 F 0 "R5" H 7730 4646 50  0000 R CNN
 F 1 "330" H 7730 4555 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7730 4600 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7730 4600 50  0001 C CNN
 F 3 "~" H 7800 4600 50  0001 C CNN
 F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    7800 4600
@@ -1039,7 +1039,7 @@ U 1 1 5C38BADC
 P 7800 5000
 F 0 "R6" H 7870 5046 50  0000 L CNN
 F 1 "470" H 7870 4955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7730 5000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7730 5000 50  0001 C CNN
 F 3 "~" H 7800 5000 50  0001 C CNN
 F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    7800 5000
