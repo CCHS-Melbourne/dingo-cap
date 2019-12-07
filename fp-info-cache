@@ -1,4 +1,4 @@
-182549694167371
+184139703084849
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -51141,6 +51141,13 @@ MCP73213T-A6BI
 0
 11
 11
+libs
+MPU9250Module
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+IMU9250
+0
+8
+8
 libs
 SOIC-8-EP--AOZ6605PI-1
 
